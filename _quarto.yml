@@ -1,19 +1,19 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
 
 book:
   title: "TA Handbook"
   reader-mode: true
-  
+
   author: "Department of Statistics and Applied Probability at UCSB"
   date: ""
-  
+
   page-footer:
     left: |
       ©2023
     right: |
-      This book was built with 
+      This book was built with
       <a href="https://quarto.org/" target="_blank">Quarto</a>.
   chapters:
     - index.qmd
@@ -30,24 +30,24 @@ book:
         - Part_1_TA_Expectations/office_hours.qmd
         - Part_1_TA_Expectations/grading.qmd
         - Part_1_TA_Expectations/course_materials.qmd
-  
+
   downloads: [pdf, epub]
-  
+
   favicon: Images/Logos_Icons/book-solid.svg
-  
+
   sidebar:
     search: true
     logo: "Images/Logos_Icons/pstat_logo.svg"
     title: "**TA Handbook**"
-  
+
 bibliography: references.bib
 
 format:
   html:
-    theme: 
+    theme:
       light: [simplex, styles.scss]
       dark: darkly
     code-link: true
-    
+
   pdf:
     documentclass: scrreprt

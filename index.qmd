@@ -1,0 +1,13 @@
+---
+title: "Preface"
+subtitle: ""
+author:
+  - name: "Department of Statistics and Applied Probability"
+    affiliations:
+      - name: "Summer 2023"
+author-title: "UCSB:"
+affiliation-title: "Last Updated"
+format: html
+---
+
+Welcome to the TA Handbook, prepared for Teaching Assistants (TAs) in the Department of Statistics and Applied Probability (PSTAT) at the University of California, Santa Barbara (UCSB).

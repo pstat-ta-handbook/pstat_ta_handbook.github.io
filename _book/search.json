@@ -7,41 +7,6 @@
     "text": "Welcome to the TA Handbook, prepared for Teaching Assistants (TAs) in the Department of Statistics and Applied Probability (PSTAT) at the University of California, Santa Barbara (UCSB)."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "Part_1_TA_Expectations/descrip_of_duties.html",
-    "href": "Part_1_TA_Expectations/descrip_of_duties.html",
-    "title": "4  Description of TA Duties from Instructor",
-    "section": "",
-    "text": "Text will go here."
-  },
-  {
-    "objectID": "Part_1_TA_Expectations/comm.html",
-    "href": "Part_1_TA_Expectations/comm.html",
-    "title": "5  Communication between TAs and Instructors",
-    "section": "",
-    "text": "Text will go here."
-  },
-  {
     "objectID": "Part_0_Basics/mission.html",
     "href": "Part_0_Basics/mission.html",
     "title": "2  Teaching Mission Statement",
@@ -56,16 +21,16 @@
     "text": "Student Affairs Manager: Myranda Flores [she/her] (studentaffairs@pstat.ucsb.edu)\n\nOversees hiring and payroll for academic employees in the department.\n\nCoordinates the assignment of Teaching Assistants to sections\nHas copies of textbooks that TAs can borrow for use in their course during the quarter\n\nUndergraduate Advisors: Ellery Wilkie [she/her] and Yan Laschev [he/him] (undergradadvisor@pstat.ucsb.edu)\n\nCoordinates classroom scheduling for departmental courses\nAssists with DSP exam accommodations\n\nAcademic Coordinator: Jessie Priestley [she/her] (academic-coordinator@pstat.ucsb.edu)\n\nHires and onboards ULAs\n\n\n\n\n\nDepartment Chair: Tomoyuki Ichiba [he/him] (ichiba@pstat.ucsb.edu)\n\nOversees planning and budgeting for the department,\nHires instructors including Graduate Student Teaching Associates.\n\nDirector of Graduate Studies: Drew Carter [he/him] (carter@pstat.ucsb.edu)\n\nThe DGS is responsible for assigning TAs to courses,\nMakes hiring decision regarding Teaching Assistants and Reader,\nInterprets policies for academic employees.\n\nLead TA: Ethan Marzban [he/him] (epmarzban@pstat.ucsb.edu)\n\nLeads the TA Training program\nActs as a liaison between graduate students and departmental leadership"
   },
   {
-    "objectID": "Part_1_TA_Expectations/grading.html",
-    "href": "Part_1_TA_Expectations/grading.html",
-    "title": "9  Grading",
+    "objectID": "Part_1_TA_Expectations/descrip_of_duties.html",
+    "href": "Part_1_TA_Expectations/descrip_of_duties.html",
+    "title": "4  Description of TA Duties from Instructor",
     "section": "",
     "text": "Text will go here."
   },
   {
-    "objectID": "Part_1_TA_Expectations/course_materials.html",
-    "href": "Part_1_TA_Expectations/course_materials.html",
-    "title": "10  Creation of Course Materials",
+    "objectID": "Part_1_TA_Expectations/comm.html",
+    "href": "Part_1_TA_Expectations/comm.html",
+    "title": "5  Communication between TAs and Instructors",
     "section": "",
     "text": "Text will go here."
   },
@@ -87,6 +52,20 @@
     "objectID": "Part_1_TA_Expectations/office_hours.html",
     "href": "Part_1_TA_Expectations/office_hours.html",
     "title": "8  Office Hours",
+    "section": "",
+    "text": "Text will go here."
+  },
+  {
+    "objectID": "Part_1_TA_Expectations/grading.html",
+    "href": "Part_1_TA_Expectations/grading.html",
+    "title": "9  Grading",
+    "section": "",
+    "text": "Text will go here."
+  },
+  {
+    "objectID": "Part_1_TA_Expectations/course_materials.html",
+    "href": "Part_1_TA_Expectations/course_materials.html",
+    "title": "10  Creation of Course Materials",
     "section": "",
     "text": "Text will go here."
   }

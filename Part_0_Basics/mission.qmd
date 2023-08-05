@@ -1,3 +1,3 @@
 # Teaching Mission Statement
 
-Text will go here. This is a test of editing the text of the website, and checking that the changes are rflected on github.
+Text will go here. This is a test of editing the text of the website, and checking that the changes are reflected on github.

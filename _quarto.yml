@@ -59,4 +59,4 @@ format:
 
   pdf:
     documentclass: scrreprt
-    linkcolor: "purple"
+    linkcolor: purple

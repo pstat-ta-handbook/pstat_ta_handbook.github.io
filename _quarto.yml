@@ -30,6 +30,10 @@ book:
         - Part_1_TA_Expectations/office_hours.qmd
         - Part_1_TA_Expectations/grading.qmd
         - Part_1_TA_Expectations/course_materials.qmd
+    - part: "**Hiring Procedures**"
+      chapters:
+        - Part_2_Hiring_Procedures/TAApplication.qmd
+        - Part_2_Hiring_Procedures/SectionAssign.qmd
 
   downloads: [pdf, epub]
 

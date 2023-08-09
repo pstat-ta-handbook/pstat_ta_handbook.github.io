@@ -1,4 +1,4 @@
-# Staff and Faculty Leadership
+# Staff and Faculty Leadership {#sec-StaffandFacultyContact}
 
 \
 
@@ -24,6 +24,8 @@
     - The DGS is responsible for assigning TAs to courses,
     - Makes  hiring decision regarding Teaching Assistants and Reader,
     - Interprets policies for academic employees. 
+    
+- **Teaching Assistant Training Coordinator:** It would be really nice if we had someone with a title like this.
 
 - **Lead TA:** Ethan Marzban [he/him] ([epmarzban@pstat.ucsb.edu](mailto:epmarzban@pstat.ucsb.edu))
     - Leads the TA Training program

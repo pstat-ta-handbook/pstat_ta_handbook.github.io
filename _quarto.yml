@@ -41,6 +41,10 @@ book:
     - part: "**Getting Help with Teaching**"
       chapters:
         - Part_4_Get_Help/Engagement.qmd
+    - part: "**FAQ (Frequently Asked Questions)**"
+      chapters:
+        - Part_7_FAQ/electronic_resources.qmd
+        - Part_7_FAQ/office_supplies.qmd
 
   downloads: [pdf, epub]
 
@@ -62,3 +66,4 @@ format:
 
   pdf:
     documentclass: scrreprt
+    linkcolor: purple

@@ -34,6 +34,13 @@ book:
       chapters:
         - Part_2_Hiring_Procedures/TAApplication.qmd
         - Part_2_Hiring_Procedures/SectionAssign.qmd
+    - part: "**Evaluation of Teaching Assistant Performance**"
+      chapters:
+        - Part_3_Evaluation/Student.qmd
+        - Part_3_Evaluation/Instructor.qmd
+    - part: "**Getting Help with Teaching**"
+      chapters:
+        - Part_4_Get_Help/Engagement.qmd
 
   downloads: [pdf, epub]
 

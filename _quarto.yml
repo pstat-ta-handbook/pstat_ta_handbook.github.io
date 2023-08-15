@@ -41,6 +41,7 @@ book:
     - part: "**Getting Help with Teaching**"
       chapters:
         - Part_4_Get_Help/Engagement.qmd
+        - Part_4_Get_Help/ManageTime.qmd
     - part: "**FAQ (Frequently Asked Questions)**"
       chapters:
         - Part_7_FAQ/electronic_resources.qmd

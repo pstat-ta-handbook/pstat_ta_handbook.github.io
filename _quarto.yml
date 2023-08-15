@@ -42,6 +42,13 @@ book:
       chapters:
         - Part_4_Get_Help/Engagement.qmd
         - Part_4_Get_Help/ManageTime.qmd
+    - part: "**Managing Issues as a Teaching Assistant**"
+      chapters: 
+        - Part_5_Issues/DistressedStudents.qmd
+        - Part_5_Issues/Conflicts.qmd
+    - part: "**Department and University Policies**"
+      chapters:
+        - Part_6_Policies/Absence.qmd
     - part: "**FAQ (Frequently Asked Questions)**"
       chapters:
         - Part_7_FAQ/electronic_resources.qmd

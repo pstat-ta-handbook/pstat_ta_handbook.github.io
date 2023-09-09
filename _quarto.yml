@@ -30,6 +30,14 @@ book:
         - Part_1_TA_Expectations/office_hours.qmd
         - Part_1_TA_Expectations/grading.qmd
         - Part_1_TA_Expectations/course_materials.qmd
+        - Part_1_TA_Expectations/proctoring.qmd
+        - Part_1_TA_Expectations/head_tas.qmd
+    - part: "**Expectations for Graders**"
+      chapters:
+        - Part_1.5_Graders/graders.qmd
+    - part: "**Expectations for ULAs**"
+      chapters:
+        - Part_1.75_ULAs/ulas.qmd
     - part: "**Hiring Procedures**"
       chapters:
         - Part_2_Hiring_Procedures/TAApplication.qmd
@@ -42,17 +50,25 @@ book:
       chapters:
         - Part_4_Get_Help/Engagement.qmd
         - Part_4_Get_Help/ManageTime.qmd
+        - Part_4_Get_Help/Univ_Resources.qmd
     - part: "**Managing Issues as a Teaching Assistant**"
       chapters: 
+        - Part_5_Issues/Issues.qmd
         - Part_5_Issues/DistressedStudents.qmd
         - Part_5_Issues/Conflicts.qmd
     - part: "**Department and University Policies**"
       chapters:
         - Part_6_Policies/Absence.qmd
+        - Part_6_Policies/Confidentiality.qmd
+        - Part_6_Policies/Preventing_Harrassment.qmd
+        - Part_6_Policies/Academic_Honesty.qmd
     - part: "**FAQ (Frequently Asked Questions)**"
       chapters:
         - Part_7_FAQ/electronic_resources.qmd
         - Part_7_FAQ/office_supplies.qmd
+    - part: "**Glossary**"
+      chapters:
+        - Part_8_Glossary/glossary.qmd
 
   downloads: [pdf, epub]
 

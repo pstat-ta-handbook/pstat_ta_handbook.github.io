@@ -10,6 +10,10 @@ At times during the quarter, you may experience stress. To effectively deal with
 
 Seeking support from colleagues and supervisors is vital when facing stress or challenges.  Having a support network to share experiences and seek advice can provide valuable insights and encouragement. Most importantly, it’s essential for you to be realistic about your capabilities and to know when to ask for help.  Acknowledging limitations and seeking assistance when needed can prevent you from becoming overwhelmed and ensure that you can perform your duties effectively.
 
+:::{.callout-tip}
+Make sure to manage your time, set clear priorities and boundaries, create a structured schedule, and practice self-care and maintain a healthy work-life balance. Also make sure to reach out to your colleagues and supervisors whenever necessary!
+:::
+
 ## University Resources
 
 - Instructional Development's material for New TAs: <a href="https://id.ucsb.edu/teaching/ta-training/new-tas" target="_blank">https://id.ucsb.edu/teaching/ta-training/new-tas</a>

@@ -49,7 +49,6 @@ book:
       chapters:
         - Part_4_Get_Help/Engagement.qmd
         - Part_4_Get_Help/ManageTime.qmd
-        - Part_4_Get_Help/Univ_Resources.qmd
     - part: "**Managing Issues as a Teaching Assistant**"
       chapters: 
         - Part_5_Issues/Issues.qmd

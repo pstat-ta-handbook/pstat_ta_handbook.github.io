@@ -4,8 +4,8 @@ Once course assignments are completed, the Student Affairs Manager (SAM see @sec
 
 ## Schedule Conflicts 
 
-If TAs have a time conflict with their assigned section, it is recommended to try to switch sections with another TA in that same course, if possible. After exhausting all options (another way to say this?) then the next step would be to communicate with the DGS to be switched into a different course.
+If TAs have a time conflict with their assigned section, it is recommended to try to switch sections with another TA in that same course, if possible. After checking with all other TAs for the course (and the Head TA for the course, if applicable) then the next step would be to communicate with the DGS to be switched into a different course.
 
 ## Confirming Section Assignments 
 
-If there are no conflicts with your assigned section, please confirm with the SAM that your assignment is finalized. This will trigger the SAM and UPA to assign you to the section in GOLD and eGrades, which will grant you access to the course website in Canvas. In addition, your end-of-the-quarter ESCI evaluations will be assigned based on what is listed in eGrades.
+If there are no conflicts with your assigned section, please confirm with the SAM that your assignment is finalized. This will trigger the SAM and UPA to assign you to the section in GOLD and eGrades, which will grant you access to the course website in Canvas. In addition, your end-of-the-quarter teaching evaluations will be assigned based on what is listed in eGrades.

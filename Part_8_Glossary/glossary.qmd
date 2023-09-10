@@ -2,13 +2,24 @@
 
 ## Common Abbreviations
 
+### People/Parties in the Department
+
 - **DGS**: Director of Graduate Studies
 
 - **GPA**: Graduate Program Advisor
 
 - **SAM**: Student Affairs Manager
 
+### Campus Entities
+
+- **PSTAT**: Statistics and Applied Probability
+
+- **UAW:** United Auto Workers (see "Union" below)
+    - <a href="https://ucsbuaw.wordpress.com/" target="_blank">**UAW 2865:**</a> The union to which all TAs, tutors, readers, and associate instructors at UCSB belong
+
+- **UCSB**: University of California, Santa Barbara
+
 
 ## Common Terms
 
-- **Union:** include definition
+- **Union:** an organized group of individuals, seeking to utilize collective bargaining power to achieve shared interests and rights in the workplace.

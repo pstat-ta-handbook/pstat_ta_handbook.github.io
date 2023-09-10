@@ -23,8 +23,7 @@ book:
         - Part_0_Basics/contacts.qmd
     - part: "**Expectations for Teaching Assistants**"
       chapters:
-        - Part_1_TA_Expectations/descrip_of_duties.qmd
-        - Part_1_TA_Expectations/comm.qmd
+        - Part_1_TA_Expectations/ta_instructor_comm.qmd
         - Part_1_TA_Expectations/workload.qmd
         - Part_1_TA_Expectations/sections.qmd
         - Part_1_TA_Expectations/office_hours.qmd

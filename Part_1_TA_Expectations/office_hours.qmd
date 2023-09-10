@@ -1,11 +1,11 @@
 # Office Hours
 
-Typically, TAs are expected to hold one hour of weekly Office Hours per Section led. This means that TAs appointed at 25% time usually host one (1) hour of Office Hours per week, and TAs appointed at 50% time usually host two (2) Office Hours per week. Please note, however, that certain Instructors may ask you to hold additional office hours, with the understanding that your duties in other areas of the course will be lessened.
+Typically, TAs are expected to hold one hour of weekly Office Hours per Section led. This means that TAs appointed at 25% time usually host one (1) hour of Office Hours per week, and TAs appointed at 50% time usually host two (2) Office Hours per week. 
 
-The Office Hour is a time when students in your Discussion Section can come and ask you questions about the class. Please check with your Instructor if you are allowed to discuss assignments/assessments during Office Hours; additionally, under no circumstances should you be sharing solutions with students, or even letting students see solutions that have been provided to you.
+The Office Hour is a time when students in your discussion section can come and ask you questions about the class. This typically involves questions about the assignments. Though you are allowed to hold office hours in your cubicle/office space, you also have the option of using the following <a href="https://booked.pstat.ucsb.edu/Web/index.php?redirect=%2FWeb%2Fdashboard.php%3F" target="_blank">portal</a>) to reserve one of the following classrooms:
 
-Though you are allowed to hold office hours in your cubicle/office space, you also have the option of using the following <a href="https://booked.pstat.ucsb.edu/Web/index.php?redirect=%2FWeb%2Fdashboard.php%3F" target="_blank">portal</a> to reserve one of the following classrooms:
-
-- South Hall 5421 (commonly referred to as the "StatLab:)
+- South Hall 5421 (commonly referred to as the "StatLab")
 - Building 434 Room 113
 - Building 434 Room 126 
+
+Please note that some courses ancertain Instructors may deviate from these norms. For example, an Instructor who provides all Section materials and homework solutions for a particular course might ask you to hold 1.5 office hours per Section instead of 1 office hour per section.

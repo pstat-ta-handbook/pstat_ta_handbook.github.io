@@ -1,0 +1,13 @@
+# TA-Instructor Communication
+
+## Description of TA Duties from Instructor
+
+A key component of ensuring that courses run smoothly is communication, especially between TAs and Instructors. Before the start of the quarter, the Instructor will reach out to you and convey additional information about the course as well as their expectations of you as a TA. This often takes the form of an introductory meeting between the Instructor and all TAs of the course (as well as the Head TA, if applicable), though certain instructors prefer to communicate this initial set of expectations through email instead of a meeting.  Regardless of the mode of communication, the Instructor will make sure you are aware of your duties in the course. 
+
+## Communication between TA and Instructor
+
+Most communication between TAs and Instructors takes place over email; as such, you should ensure that you are checking your email regularly and making sure that emails are not being left unanswered for extended periods of time. In particular, you should make every effort to respond to Instructor emails within one or two business days of when they are sent. Similarly, Instructors will make every effort to respond to your emails within the same time period (one-to-two business days).
+
+Please note that, in certain extraordinary circumstances, you may be asked to respond to emails over the weekend (e.g., if the final exam for the course for which you are a TA falls on a Saturday). This will not, however, be a regular expectation of you.
+
+In certain cases, it may be necessary/beneficial to adopt a second mode of communication between TAs and Instructors. This can take the form of a Nectir Chat, Slack Channel, Discord Server, Google Chat Room, etc. If your Instructor chooses to establish such a resource, you should also ensure that you are checking it regularly and that, again, communications are not being left unanswered for extended periods of time.

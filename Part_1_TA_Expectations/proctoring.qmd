@@ -1,3 +1,9 @@
 # Proctoring Exams
 
-Text will go here.
+As part of your TA duties, you may be expected to proctor exams during the quarter. Please note that even as a TA employed at 25% time you may still be asked to proctor [all]{.underline} exams for the course; the expectation is that the Instructor will modify your workload in other capacities correspondingly to ensure your workload is consistent with your official appointment.
+
+It is the responsibility of the Instructor to provide additional information if needed regarding what specific duties are entailed in the proctoring of an exam. For in-person exams, most instructors expect proctors to maintain a vigilant eye on the students in the room, and to report any suspicious behavior to the Instructor or Head TA (if applicable) as soon as possible. Additional proctoring duties may include: distribution and collection of exams, answering of student questions during the duration of the exam, providing a headcount of students present in the exam room, etc. 
+
+Vigilance during exam proctoring is key. While proctoring, you should not be continually on your phone, working on your own projects, or talking with other proctors. Not only is this sort of behavior counterproductive, it can also disrupt students while they are taking their exams. Rather, keep an active eye on students and follow any instructions given to you by your Instructor and/or Head TA carefully.
+
+If timed assessments/quizzes take place during Section times, you will likely be responsible for the proctoring of these assessments. You may also be expected to aid in the creation of Section-specific assessments, as outlined in the previous section of this Handbook ([Creation of Course Materials](course_materials.qmd)).

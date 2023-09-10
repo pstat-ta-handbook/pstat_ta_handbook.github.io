@@ -1,3 +1,7 @@
 # Creation of Course Materials
 
-Text will go here.
+The overall creation of course materials is something that the Instructor is expected to carry out, and is not generally something you (as a TA) will be expected to do. However, as a TA, you may be asked to aid in the creation or modification of certain course materials.
+
+More specifically, you may be asked to oversee the creation of materials for assessments that take place during your Section Time (e.g., weekly quizzes). The creation of such material, however, is designed to be more akin to “versioning”, and will likely entail simply adapting pre-existing course materials (e.g., homework problems, textbook exercises, etc.) by changing a few words and numbers. You may, additionally, be expected to create the solutions to these assessments. The rationale behind this expectation is that you will likely be responsible for the administration and proctoring – and possibly even the grading of – these assessments; as such, your involvement in every stage of their development is paramount.
+
+So, as a general rule of thumb: you may be asked to contribute to or create assessments (and their solutions) that will take place during Section. All other course material should be created by the Instructor. As always, if you foresee any difficulties in or concerns with carrying out these duties, please communicate with the Instructor, Head TA, or department (by way of either the Lead TA, the Teaching Assistant Training Coordinators, or the Graduate Program Advisor).

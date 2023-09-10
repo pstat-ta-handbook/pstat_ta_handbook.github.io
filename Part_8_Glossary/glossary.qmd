@@ -10,12 +10,18 @@
 
 - **SAM**: Student Affairs Manager
 
-### Campus Entities
+### Campus Entities and Terms
+
+- **ASE:** Academic Student Employee
+
+    - The official designation of any graduate students employed by the University (e.g. TAs)
 
 - **PSTAT**: Statistics and Applied Probability
 
 - **UAW:** United Auto Workers (see "Union" below)
     - <a href="https://ucsbuaw.wordpress.com/" target="_blank">**UAW 2865:**</a> The union to which all TAs, tutors, readers, and associate instructors at UCSB belong
+    
+    - <a href="https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/contract.html" target="_blank">The Contract Between UCSB and UAW Regarding ASEs</a>
 
 - **UCSB**: University of California, Santa Barbara
 

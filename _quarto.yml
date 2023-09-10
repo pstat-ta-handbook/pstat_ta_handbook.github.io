@@ -52,8 +52,8 @@ book:
     - part: "**Managing Issues as a Teaching Assistant**"
       chapters: 
         - Part_5_Issues/Issues.qmd
-        - Part_5_Issues/DistressedStudents.qmd
-        - Part_5_Issues/Conflicts.qmd
+        - Part_5_Issues/TA_Student_Conflicts.qmd
+        - Part_5_Issues/TA_Instructor_Conflicts.qmd
     - part: "**Department and University Policies**"
       chapters:
         - Part_6_Policies/Absence.qmd

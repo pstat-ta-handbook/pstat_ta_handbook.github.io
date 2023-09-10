@@ -8,4 +8,4 @@ If TAs have a time conflict with their assigned section, it is recommended to tr
 
 ## Confirming Section Assignments 
 
-If there are no conflicts with your assigned section, please confirm with the SAM that your assignment is finalized. This will trigger the SAM and UPA to assign you to the section in GOLD and eGrades, which will grant you access to the course website in Canvas. In addition, your end-of-the-quarter teaching evaluations will be assigned based on what is listed in eGrades.
+If there are no conflicts with your assigned section, please confirm with the SAM that your assignment is finalized. This will trigger the SAM and <span title="Undergraduate Program Advisors">[UPA]{.underline}</span> to assign you to the section in GOLD and eGrades, which will grant you access to the course website in Canvas. In addition, your end-of-the-quarter teaching evaluations will be assigned based on what is listed in eGrades.

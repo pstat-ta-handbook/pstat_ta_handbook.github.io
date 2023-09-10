@@ -10,6 +10,18 @@ affiliation-title: "Last Updated"
 format: html
 ---
 
-Welcome to the TA Handbook, prepared for Teaching Assistants (TAs) in the Department of Statistics and Applied Probability (PSTAT) at the University of California, Santa Barbara (UCSB). \
+Welcome to the Teaching Handbook, prepared for members of the Department of Statistics and Applied Probability (PSTAT) at the University of California, Santa Barbara (UCSB). \
 
-Here is a <span title="check out this text!">**test**</span> of tooltip text.
+This handbook seeks to clarify and codify the general expectations of Teaching Assistants (TAs) in the department, but also contains useful and important information for Graders and ULAs (Undergraduate Learning Assistants). As such, we encourage all members of the department (whether they are TAs or not) to read this handbook, to ensure everyone is aware of the policies outlined therein.
+
+This handbook was first created in September 2023, by:
+
+- Dr. Andrew Carter [he/him]
+- Dr. Jack Miller [they/them]
+- Dr. Julianne Swenson [she/her]
+- Myranda Flores [she/her]
+- Ethan Marzban [he/him]
+
+The authors would also like to acknowledge the support and aid of:
+
+- TBD

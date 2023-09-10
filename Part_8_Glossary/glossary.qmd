@@ -11,4 +11,4 @@
 
 ## Common Terms
 
-- **Union:** <include definition>
+- **Union:** include definition

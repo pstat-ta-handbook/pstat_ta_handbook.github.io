@@ -63,6 +63,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -456,6 +459,40 @@ ul.task-list li input[type="checkbox"] {
 <p>The number one piece of advice we can give you is to maintain communication – we encourage you to maintain an active dialogue with your Instructor (be that through the course Discussion Board [Nectir, Discord, Slack, etc.] or through regular TA-Instructor check-ins) about your workload, as well as any unexpected issues that may arise.</p>
 <p>Another guiding tenet of the TA-Instructor relationship is maintaining a sense of professionalism and cohesion among the course staff. You should not publicly challenge decisions made by Instructors or your fellow TAs in front of your students – doing so degrades students’ trust in the course staff as a whole and possibly in the Instructor, which often leads to an overall sense of disarray in the course. It is important to provide the students with a “united front” as an instructional team and handle as many of these disagreements in private with the Instructor and instructional team.</p>
 <p>Finally, we would also like to affirm that the department is here to support you. If repeated efforts to resolve conflicts with your Instructor have been unsuccessful, please feel free to reach out to the Graduate Program Advisor, the Graduate Studies Chair, the TA Training Coordinators, or the Lead TA to discuss further.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'secondaryColor': 'red',
+      'tertiaryColor': '#fff',
+      'edgeLabelBackground': 'red'
+    }
+  }
+}%%
+
+flowchart TD
+    linkStyle default stroke: black;
+    
+    A[Square Node] --&gt;|Decision| B(Round Node)
+    B --&gt; C{Diamond Node}
+    C --&gt;|Dec1| D[Result 1]
+    C --&gt;|Dec2| E[Result 2]
+    C --&gt;|Dec3| F[Result 3]
+
+    F --&gt; |Dec4| G[Result 3.1]
+    F --&gt; |Dec4| H[Result 3.1]
+</pre>
+</div>
+</div>
+</div>
+</div>
 
 
 

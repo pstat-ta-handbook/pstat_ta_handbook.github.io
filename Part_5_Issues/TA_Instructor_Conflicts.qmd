@@ -19,12 +19,18 @@ Finally, we would also like to affirm that the department is here to support you
       'secondaryColor': 'red',
       'tertiaryColor': '#fff',
       'edgeLabelBackground': 'red'
-    }
+    },
+    'title': 'Node with text'
   }
 }%%
 
 flowchart TD
     linkStyle default stroke: black;
+    
+    title[Figure 1: My Title Here]
+    title --- AA
+    style title fill:#FFF,stroke:#FFF
+    linkStyle 0 stroke:#FFF,stroke-width:0;
     
     AA[Student] -->|Concerns about the Course|A(Teaching Assistant)
     A -->|Course Content and Policy Issues|B(Course Instructor)

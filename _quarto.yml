@@ -17,7 +17,7 @@ book:
       <a href="https://quarto.org/" target="_blank">Quarto</a>.
   chapters:
     - index.qmd
-    - part: "**Preliminaries**"
+    - part: "**Teaching in the Department of Statistics and Applied Probability**"
       chapters:
         - Part_0_Basics/mission.qmd
         - Part_0_Basics/contacts.qmd

@@ -1,0 +1,1464 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{soul}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={TA Handbook},
+  pdfauthor={Department of Statistics and Applied Probability at UCSB},
+  colorlinks=true,
+  linkcolor={purple},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{TA Handbook}
+\author{Department of Statistics and Applied Probability at UCSB}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, breakable, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+Welcome to the Teaching Handbook, prepared for members of the Department
+of Statistics and Applied Probability (PSTAT) at the University of
+California, Santa Barbara (UCSB).
+
+This handbook seeks to clarify and codify the general expectations of
+Teaching Assistants (TAs) in the department, but also contains useful
+and important information for Graders and ULAs (Undergraduate Learning
+Assistants). As such, we encourage all members of the department
+(whether they are TAs or not) to read this handbook, to ensure everyone
+is aware of the policies outlined therein.
+
+\part{\textbf{Teaching in the Department of Statistics and Applied
+Probability}}
+
+\hypertarget{teaching-mission-statement}{%
+\chapter{Teaching Mission Statement}\label{teaching-mission-statement}}
+
+The Mission of the Department of Statistics and Applied Probability is,
+in part, to provide education and training to UCSB students in the areas
+of statistics, data science, actuarial science, financial mathematics,
+and applied probability. We seek to educate and prepare the future
+workforce of data scientists and quantitative thinkers.
+
+Our graduate students are given the opportunity to work as Teaching
+Assistants, Graders/Readers, and Teaching Associates in order to help
+further these educational goals. Our TAs work together with faculty,
+instructors, and colleagues to provide a broader reach to our teaching,
+to give additional perspective and context to classroom material, and to
+interact more closely with students. A Teaching Assistant position is
+also a key part of graduate student training in that it brings greater
+understanding of the key material in statistics and applied probability
+as well as preparing the next generation of teachers.
+
+Our graduate students come from diverse backgrounds that strengthen our
+department as a whole. As stated in the PSTAT Department Mission
+Statement,
+
+\begin{quote}
+Increasing diversity across our field is essential in creating more
+productive, representative, and enriching outcomes as well as innovative
+solutions to critical problems. We recognize that, historically, the job
+markets and academic communities in statistical theory and methods,
+financial mathematics, and actuarial science have been weighted toward
+racial, gender, and socioeconomically privileged communities. We are
+dedicated to correcting this imbalance in our own community.
+\end{quote}
+
+To this end, Teaching Assistants are encouraged to bring their own
+unique personal history and perspective to their role in ways that
+contribute to educating our students. They should also reach out across
+categories and intersectionalities to support every student who comes to
+our classes.
+
+\hypertarget{sec-StaffandFacultyContact}{%
+\chapter{Staff and Faculty
+Leadership}\label{sec-StaffandFacultyContact}}
+
+\hypertarget{Staff}{%
+\section*{Staff}\label{Staff}}
+\addcontentsline{toc}{section}{Staff}
+
+\markright{Staff}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Student Affairs Manager (SAM)} and \textbf{Graduate Program
+  Advisor (GPA)}: Myranda Flores {[}she/her{]}
+  (\href{mailto:studentaffairs@pstat.ucsb.edu}{\nolinkurl{studentaffairs@pstat.ucsb.edu}})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Oversees hiring and payroll for academic employees in the
+    department.\\
+  \item
+    Coordinates the assignment of Teaching Assistants to sections
+  \item
+    Has copies of textbooks that TAs can borrow for use in their course
+    during the quarter
+  \end{itemize}
+\item
+  \textbf{Undergraduate Advisors:} Ellery Wilkie {[}she/her{]} and Yan
+  Laschev {[}he/him{]}
+  (\href{mailto:undergradadvisor@pstat.ucsb.edu}{\nolinkurl{undergradadvisor@pstat.ucsb.edu}})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Coordinate classroom scheduling for departmental courses
+  \item
+    Assist with exam accommodations through the Disabled Students
+    Program (DSP)
+  \end{itemize}
+\item
+  \textbf{Academic Coordinator:} Jessie Priestley {[}she/her{]}
+  (\href{mailto:academic-coordinator@pstat.ucsb.edu}{\nolinkurl{academic-coordinator@pstat.ucsb.edu}})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Hires and onboards Undergraduate Learning Assistants (ULAs)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{AcadLead}{%
+\section*{Academic Leadership}\label{AcadLead}}
+\addcontentsline{toc}{section}{Academic Leadership}
+
+\markright{Academic Leadership}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Director of Graduate Studies (DGS):} Drew Carter {[}he/him{]}
+  (\href{mailto:carter@pstat.ucsb.edu}{\nolinkurl{carter@pstat.ucsb.edu}})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Assigns TAs to courses
+  \item
+    Makes hiring decisions regarding Teaching Assistants and Readers
+  \item
+    Interprets policies for academic employees
+  \end{itemize}
+\item
+  \textbf{Lead TA:} Ethan Marzban {[}he/him{]}
+  (\href{mailto:epmarzban@pstat.ucsb.edu}{\nolinkurl{epmarzban@pstat.ucsb.edu}})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Leads the TA Training program (PSTAT 501)
+  \item
+    Acts as a liaison between graduate students and departmental
+    leadership
+  \end{itemize}
+\item
+  \textbf{Teaching Assistant Training Coordinators:} Jack Miller
+  {[}they/them{]}
+  (\href{mailto:jbmiller@ucsb.edu}{\nolinkurl{jbmiller@ucsb.edu}}),
+  Julie Swenson
+  (she/her)(\href{mailto:swenson@pstat.ucsb.edu}{\nolinkurl{swenson@pstat.ucsb.edu}}),
+  Julie Swenson
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Support TAs in matters related to classroom instruction
+  \item
+    Available for TA consultations
+  \item
+    Support the DGS with matters related to TAs
+  \end{itemize}
+\end{itemize}
+
+\part{\textbf{Expectations for Teaching Assistants}}
+
+\hypertarget{ta-instructor-communication}{%
+\chapter{TA-Instructor
+Communication}\label{ta-instructor-communication}}
+
+\hypertarget{description-of-ta-duties-from-instructor}{%
+\section{Description of TA Duties from
+Instructor}\label{description-of-ta-duties-from-instructor}}
+
+A key component of ensuring that courses run smoothly is communication,
+especially between TAs and Instructors. Before the start of the quarter,
+the Instructor will reach out to you and convey additional information
+about the course as well as their expectations of you as a TA. This
+often takes the form of an introductory meeting between the Instructor
+and all TAs of the course (as well as the Head TA, if applicable),
+though certain instructors prefer to communicate this initial set of
+expectations through email instead of a meeting. Regardless of the mode
+of communication, the Instructor will make sure you are aware of your
+duties in the course.
+
+\hypertarget{communication-between-ta-and-instructor}{%
+\section{Communication between TA and
+Instructor}\label{communication-between-ta-and-instructor}}
+
+Most communication between TAs and Instructors takes place over email;
+as such, you should ensure that you are checking your email regularly
+and making sure that emails are not being left unanswered for extended
+periods of time. In particular, you should make every effort to respond
+to Instructor emails within one or two business days of when they are
+sent. Similarly, Instructors will make every effort to respond to your
+emails within the same time period (one-to-two business days).
+
+Please note that, in certain extraordinary circumstances, you may be
+asked to respond to emails over the weekend (e.g., if the final exam for
+the course for which you are a TA falls on a Saturday). This will not,
+however, be a regular expectation of you.
+
+In certain cases, it may be necessary/beneficial to adopt a second mode
+of communication between TAs and Instructors. This can take the form of
+a Nectir Chat, Slack Channel, Discord Server, Google Chat Room, etc. If
+your Instructor chooses to establish such a resource, you should also
+ensure that you are checking it regularly and that, again,
+communications are not being left unanswered for extended periods of
+time.
+
+\hypertarget{workload-expectations}{%
+\chapter{Workload Expectations}\label{workload-expectations}}
+
+Teaching Assistants are generally hired at either 50\% or 25\% time. A
+50\% TA is responsible for two discussion sections, and a 25\% TA is
+responsible for one discussion section. The expectation is that the
+workload is about 10 hours per week for each discussion section that you
+are responsible for. However, not every week is the same, and some weeks
+will be busier than others.
+
+There are Union Rules (see \protect\hyperlink{glossary-1}{Glossary})
+which stipulate that TAs hired at 50\% time may not be assigned work
+exceeding 220 hours per quarter (110 for 25\% positions). Furthermore,
+no one can be asked to work for more than 40 hours in any given week or
+more than 8 hours in a given day. Additional rules and specific details
+are provided in Section 32 of the amended UAW 2865 contract.
+
+What this typically means is that you will not be asked to work in
+excess of 20 hours per week on a regular basis for your TA duties (10
+hours if you are a 25\% TA). These 20 (10) hours include time spent:
+
+\begin{itemize}
+\tightlist
+\item
+  Preparing for Sections
+\item
+  Leading Sections
+\item
+  Hosting Office Hours
+\item
+  Attending lectures (if you are asked to do so)
+\item
+  Answering student and/or Instructor emails
+\item
+  Grading
+\item
+  Taking attendance
+\item
+  Reviewing course material and/or assessments (if applicable)
+\end{itemize}
+
+If you feel that the workload being asked of you is in danger of
+approaching or exceeding the above-stated limits, you are encouraged to
+reach out to the Instructor to discuss adjusting your workload. Should
+discussions with the Instructor prove to be unsuccessful, you are
+encouraged to reach out to either the Teaching Assistant Training
+Coordinators or the Lead TA.
+
+Please note: you are expected to prepare for each of the sections and
+Office Hours (OH) you lead. Above all, this entails working through any
+provided material (e.g., worksheets, homework, etc.) \ul{\textbf{fully}}
+before coming into your section/OH, and ensuring that you are able to
+answer questions about the material without having to reference the
+solutions. That is, you should not prepare by just skimming over the
+solutions provided to you--make sure you can solve all problems on your
+own, and that you are able to answer student questions adequately. It is
+unfair to your students if you come to Sections or Office Hours
+underprepared, especially if you are simply ``reading from the
+solutions'' and not providing any additional insight.
+
+As a TA, the notion of ``business hours'' can become a bit complicated,
+especially if you are leading a section late in the evening (be aware
+that some sections for courses meet from 7 - 7:50pm). It is important
+for your own mental health to set boundaries with regards to the times
+of day during which you will be working on your TA duties, and the times
+during which you will not. As always, the amount of work you spend on
+your TA duties should not exceed the maxima outlined above.
+
+You will typically not be asked to work on weekends or holidays (though,
+depending on your own schedule, you may find it prudent to plan/prepare
+for sections over the weekend, especially if you are holding a section
+on Monday). Course staff meetings should also not be scheduled on
+weekends or holidays except in extreme or emergency circumstances. One
+exception is the initial meeting Instructors hold with their TAs--these
+meetings almost always occur either during break or during the weekend
+right before the start of the quarter. You should make every effort to
+be available for this meeting, just as the Instructor will make every
+effort to be respectful of your time and keep the meeting from running
+too long.
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, coltitle=black, breakable, titlerule=0mm, opacitybacktitle=0.6, colback=white, toptitle=1mm, opacityback=0, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, bottomtitle=1mm, rightrule=.15mm, bottomrule=.15mm, left=2mm]
+
+Communication is key!
+
+\end{tcolorbox}
+
+\hypertarget{discussion-sections}{%
+\chapter{Discussion Sections}\label{discussion-sections}}
+
+TAs hired at 50\% time will be responsible for leading 2 sections per
+week, and TAs hired at 25\% will be responsible for leading 1 section
+per week. Please note that for lower division courses (i.e., PSTAT 5A,
+PSTAT 5LS, and PSTAT 10) each section meets twice a week (so, a 50\% TA
+in PSTAT 5A will be holding 4 x 50 = 200 minutes of section per week).
+
+The specific duties you will be expected to carry out while leading
+sections often vary significantly across courses and instructors. A
+typical section will consist of a review portion (in which you review
+lecture material for your students) along with some time for students to
+work through a worksheet or lab activity. Certain sections, however, are
+led like an Office Hour and are more flexible in structure. If you are
+unclear about how you are expected to lead sections, please reach out to
+the Instructor.
+
+Note: Please refrain from going through questions on the homework
+assignments prior to the due dates unless the Instructor has indicated
+that this is okay.
+
+\hypertarget{office-hours}{%
+\chapter{Office Hours}\label{office-hours}}
+
+Typically, TAs are expected to hold one hour of weekly Office Hours per
+Section led. This means that TAs appointed at 25\% time usually host one
+(1) hour of Office Hours per week, and TAs appointed at 50\% time
+usually host two (2) Office Hours per week.
+
+The Office Hour is a time when students in your discussion section can
+come and ask you questions about the class. This typically involves
+questions about the assignments. Though you are allowed to hold office
+hours in your cubicle/office space, you also have the option of using
+the following portal) to reserve one of the following classrooms:
+
+\begin{itemize}
+\tightlist
+\item
+  South Hall 5421 (commonly referred to as the ``StatLab'')
+\item
+  Building 434 Room 113
+\item
+  Building 434 Room 126
+\end{itemize}
+
+Please note that some courses ancertain Instructors may deviate from
+these norms. For example, an Instructor who provides all Section
+materials and homework solutions for a particular course might ask you
+to hold 1.5 office hours per Section instead of 1 office hour per
+section.
+
+\hypertarget{grading}{%
+\chapter{Grading}\label{grading}}
+
+Certain Instructors expect TAs to aid in the grading of assignments and
+assessments. It is typical for TAs to grade assessments that take place
+during Sections they lead (e.g., quizzes, worksheets, labs, etc.). As a
+TA, you may also be asked to grade homework assignments should the
+Instructor deem it necessary. It is also typical for TAs to grade exams
+(midterms and finals) under the guidance of the Instructor.
+
+Some Instructors grade using online tools (e.g., Gradescope, Canvas),
+whereas others prefer to grade on paper and in person. If your
+Instructor decides on in-person/synchronous grading, they (or the Head
+TA) will likely coordinate blocks of time for grading sessions during
+which you will be asked to come to campus and grade exams. Again,
+though, the workload asked of you should never exceed the maxima
+outlined in the section on Workload Expectations above. Please
+communicate with the Instructor and/or Head TA if you feel your grading
+obligations will extend your workload beyond a reasonable amount.
+
+It is your responsibility as a TA to ensure you complete the grading of
+assignments and assessments by the deadlines set by the Instructor
+(deadlines that will often be discussed with and agreed upon by all
+members of the Course Staff). It is not fair to students to have to wait
+extended periods of time before receiving feedback on their work.
+Additionally, please let the Instructor know if you have any major
+assessments for your own classes or qualifying exams coming up that may
+interfere with the typical timing of grading assessments.
+
+\hypertarget{creation-of-course-materials}{%
+\chapter{Creation of Course
+Materials}\label{creation-of-course-materials}}
+
+The overall creation of course materials is something that the
+Instructor is expected to carry out, and is not generally something you
+(as a TA) will be expected to do. However, as a TA, you may be asked to
+aid in the creation or modification of certain course materials.
+
+More specifically, you may be asked to oversee the creation of materials
+for assessments that take place during your Section Time (e.g., weekly
+quizzes). The creation of such material, however, is designed to be more
+akin to ``versioning'', and will likely entail simply adapting
+pre-existing course materials (e.g., homework problems, textbook
+exercises, etc.) by changing a few words and numbers. You may,
+additionally, be expected to create the solutions to these assessments.
+The rationale behind this expectation is that you will likely be
+responsible for the administration and proctoring -- and possibly even
+the grading of -- these assessments; as such, your involvement in every
+stage of their development is paramount.
+
+So, as a general rule of thumb: you may be asked to contribute to or
+create assessments (and their solutions) that will take place during
+Section. All other course material should be created by the Instructor.
+As always, if you foresee any difficulties in or concerns with carrying
+out these duties, please communicate with the Instructor, Head TA, or
+department (by way of either the Lead TA, the Teaching Assistant
+Training Coordinators, or the Graduate Program Advisor).
+
+\hypertarget{proctoring-exams}{%
+\chapter{Proctoring Exams}\label{proctoring-exams}}
+
+As part of your TA duties, you may be expected to proctor exams during
+the quarter. Please note that even as a TA employed at 25\% time you may
+still be asked to proctor \ul{all} exams for the course; the expectation
+is that the Instructor will modify your workload in other capacities
+correspondingly to ensure your workload is consistent with your official
+appointment.
+
+It is the responsibility of the Instructor to provide additional
+information if needed regarding what specific duties are entailed in the
+proctoring of an exam. For in-person exams, most instructors expect
+proctors to maintain a vigilant eye on the students in the room, and to
+report any suspicious behavior to the Instructor or Head TA (if
+applicable) as soon as possible. Additional proctoring duties may
+include: distribution and collection of exams, answering of student
+questions during the duration of the exam, providing a headcount of
+students present in the exam room, etc.
+
+Vigilance during exam proctoring is key. While proctoring, you should
+not be continually on your phone, working on your own projects, or
+talking with other proctors. Not only is this sort of behavior
+counterproductive, it can also disrupt students while they are taking
+their exams. Rather, keep an active eye on students and follow any
+instructions given to you by your Instructor and/or Head TA carefully.
+
+If timed assessments/quizzes take place during Section times, you will
+likely be responsible for the proctoring of these assessments. You may
+also be expected to aid in the creation of Section-specific assessments,
+as outlined in the previous section of this Handbook
+(\protect\hyperlink{creation-of-course-materials}{Creation of Course
+Materials}).
+
+\hypertarget{responsibilities-of-a-head-ta}{%
+\chapter{Responsibilities of a Head
+TA}\label{responsibilities-of-a-head-ta}}
+
+The primary function of a Head TA is to facilitate communication between
+TAs and the Instructor of the course. Head TAs are typically only
+assigned to very large classes such as 5A, 5LS, 10, or 120A.
+
+If you are a TA for a course with a Head TA, it is possible that your
+primary means of communication with the Instructor will be through the
+Head TA. Questions regarding specific student circumstances or general
+course logistics should in many cases be directed to the Head TA, who
+may decide to include the Instructor on future communications.
+Furthermore, weekly/regular TA meetings may be led exclusively by the
+Head TA in certain circumstances, though the Instructor is still
+expected to maintain a heavy presence in the administration of the
+course.
+
+A Head TA position comes with extra responsibility, and so it is
+generally offered only to more senior, experienced Teaching Assistants
+who are familiar with the workings and logistics of that particular
+course. Head TAs are selected from recommendations by the instructors
+and the TA training team. The compensation for taking on this leadership
+role is a reduction in the number of sections that you will be asked to
+lead. If you are interested in becoming a Head TA in a future quarter,
+please talk to your Instructor or the DGS.
+
+\part{\textbf{Expectations for Graders}}
+
+\hypertarget{expectations-for-graders-1}{%
+\chapter{Expectations for Graders}\label{expectations-for-graders-1}}
+
+Graders (or ``Readers'' which is their official job title) are hired to
+grade student work. Typically, graders are given weekly homework papers
+to grade. Most often the course instructor will provide solutions to the
+assigned questions as well as a rubric describing how points are to be
+assigned in the grading. It is your responsibility to make sure that you
+understand the intentions of your instructor both as to what answers are
+considered acceptable and also how points should be distributed for
+partially correct answers. (See \protect\hyperlink{grading}{Grading})
+
+Time Cards Unlike Teaching Assistant positions, Grader (Reader)
+positions are hired as hourly employees. This means that you are
+responsible for keeping track of the number of hours you spend each week
+grading papers. These hours should include any time that you spend
+working on solutions or understanding the material in preparation for
+grading.
+
+At the end of each pay period, Graders will need to submit a time card
+via the university system. Readers will be required to report their
+worked hours into the Kronos Timekeeping system. Graders are on a
+biweekly pay period, and should receive reminders from the Kronos system
+to log hours and approve each timecard.
+
+Graders work with their course Instructor to be sure that they are
+grading the appropriate number of hours. It is crucial that the total
+number of hours worked matches the amount budgeted at the end of the
+quarter. It is also important to note that Graders are eligible to
+receive tuition remission if they have at least 100 hours reported in
+Kronos by the end of the quarter.
+
+For example, If you were told that you were assigned two courses for
+grading 65 hours for one and 35 hours for the other, at the end of the
+quarter it is okay if you have worked 55 hours and 45 hours, but the
+total number of hours needs to be 100. You should also coordinate with
+the instructors of both of those courses so that they understand how you
+are using your time.
+
+\textbf{Work together with your Instructor to schedule when you have
+grading to do}. It is often the case that there is more grading to be
+done in later weeks of the quarter than at the beginning. This is to be
+expected. You can mitigate the effects on your schedule by finishing
+your grading work in a timely manner. You do not want your unfinished
+work to build up as more homework comes in each week. Let your
+instructor know if there are weeks when you will be particularly busy so
+that they can try to schedule the grading appropriately. Especially
+during finals week, you will want to plan ahead and know how much work
+you will be expected to do. Leave enough space in your schedule to
+complete the grading on time. In the rare case that something comes up
+such that you do not think you will be able to complete your grading in
+time, make sure to communicate with the Instructor as far in advance as
+possible.
+
+\part{\textbf{Expectations for ULAs}}
+
+\hypertarget{expectations-for-ulas-1}{%
+\chapter{Expectations for ULAs}\label{expectations-for-ulas-1}}
+
+Undergraduate Learning Assistants (ULAs) play a valuable role within the
+teaching team, offering additional support to enhance students' academic
+success in the course. ULAs are equipped to provide numerous forms of
+assistance, including but not limited to, assisting in discussions or
+lab activities, conducting tutoring sessions for small groups, holding
+office hours, hosting review sessions, and facilitating study groups.
+The PSTAT Department offers dedicated tutoring space that can be
+conveniently scheduled by ULAs.
+
+It is important to note that while ULAs are well-qualified to provide
+various forms of support, certain responsibilities are restricted to
+other instructional staff members, such as faculty, Teaching Associates,
+or Teaching Assistants. ULAs are not authorized to lead discussion or
+lab sections, assign grades to student work, or independently handle
+activities designated for the aforementioned personnel.
+
+ULAs are hired as hourly employees and assigned a fixed number of weekly
+hours. They are not required to work during finals week. If there is a
+need for any modifications to their allocated hours, ULAs must promptly
+communicate such requests in advance to both the department and the
+instructor. Moreover, ULAs are responsible for tracking their worked
+hours, as this information will be required for their time card.
+
+\part{\textbf{Hiring Procedures}}
+
+\hypertarget{teaching-assistant-applications}{%
+\chapter{Teaching Assistant
+Applications}\label{teaching-assistant-applications}}
+
+During the Summer before the new academic year begins, the department
+will send the annual Teaching Assistant Application. Graduate students
+who would like to be considered for a teaching assistant position must
+complete this form.
+
+Please be as detailed as possible, especially for the following
+sections.
+
+\begin{itemize}
+\item
+  \emph{Workload Expectations} It is common for graduate students to
+  work at 50\% full time employment (FTE) which equates to 20 hours per
+  week as well as two sections of a course. It is important for the
+  Department to know your availability per quarter as section
+  assignments are made. For example, if you anticipate having a Graduate
+  Student Research position and would like to split your time between
+  that appointment and the teaching assistant position, the department
+  can make adjustments to your TA course assignments.
+\item
+  \emph{Prior TA Experience} If you have been a teaching assistant for
+  the PSTAT department in the past, you may list your experience here.
+  You can list which courses in the department you have previously
+  taught.
+\item
+  \emph{TA/Reader Assignment Preferences} This section will allow you to
+  pick which courses you would like to be assigned to teach. While first
+  choice classes may not be guaranteed, the department tries to
+  accommodate as many preferences as possible.
+\item
+  \emph{Other skills and qualifications} Students may list other
+  qualifications that may be helpful when assigning TAs to courses.
+  Additional information such as proficiency in software packages,
+  previous graduate degrees, passed actuarial exams would be important
+  to note here.
+\end{itemize}
+
+The information from the teaching assistant application will be used by
+the Director of Graduate Studies to assign graduate students to courses
+for the entire academic year. You should receive information about the
+courses that you will be assigned at the beginning of the year.
+Assignments to the specific sections of their courses and finalization
+of the schedule will occur at the start of each quarter. You should
+receive this information from the
+\protect\hyperlink{sec-StaffandFacultyContact}{Student Affairs Manager}
+(who is also the Graduate Program Advisor).
+
+\hypertarget{section-assignments}{%
+\chapter{Section Assignments}\label{section-assignments}}
+
+Once course assignments are completed, the
+\protect\hyperlink{Staff}{Student Affairs Manager (SAM)} will assign TAs
+to sections of their course. Instructors and all teaching assistants
+will have the schedules communicated to them by the SAM via email before
+the quarter starts.
+
+\hypertarget{schedule-conflicts}{%
+\section{Schedule Conflicts}\label{schedule-conflicts}}
+
+If TAs have a time conflict with their assigned section, it is
+recommended to try to switch sections with another TA in that same
+course, if possible. After checking with all other TAs for the course
+(and the Head TA for the course, if applicable) then the next step would
+be to communicate with the DGS to be switched into a different course.
+
+\hypertarget{confirming-section-assignments}{%
+\section{Confirming Section
+Assignments}\label{confirming-section-assignments}}
+
+If ther3e are no conflicts with your assigned section, please confirm
+with the SAM that your assign9ment is finalized. This will trigger the
+SAM and \protect\hyperlink{Staff}{Undergraduate Program Advisors (UPA)}
+to assign you to the section in GOLD and
+\href{http://egrades.sa.ucsb.edu}{eGrades}, which will grant you access
+to the course website in Canvas. In addition, your end-of-the-quarter
+teaching evaluations will be assigned based on what is listed in
+eGrades.
+
+\part{\textbf{Evaluation of Teaching Assistant Performance}}
+
+\hypertarget{student-evaluations}{%
+\chapter{Student Evaluations}\label{student-evaluations}}
+
+At the end of each quarter, the students will give feedback about your
+section via Explorance Blue (known as ``Blue''). Blue is new to UCSB for
+Fall 2023, so more information will come out during the quarter. These
+are online surveys where students answer questions about the course and
+about you as an instructor on a 5-point Likert scale (Strongly Agree to
+Strongly Disagree). The University and the Department will have a set
+series of questions that the students are asked, and you may be able to
+add custom questions. Students are also asked to provide comments about
+the quality of instruction in the course. Blue will be available in the
+last weeks of each quarter for students to complete the survey. Discuss
+with your Instructor whether they want you to give reminders to your
+students or set aside time in section for students to complete the
+teaching evaluations.
+
+After the quarter has ended, you will receive the results of your
+teaching evaluations. Thinking carefully about the feedback is an
+important tool for improving your teaching. Try not to worry too much
+about a single negative comment, but instead try to use all of the
+comments and quantitative results to understand how your students
+experienced the course and your teaching. Consider changes that you
+could make to your approach in section to address the concerns of
+students. It may be useful to discuss the Blue responses with your
+Instructor, the Teaching Assistant Training Coordinators, or Head TA if
+you are not sure what the feedback means.
+
+\hypertarget{feedback-from-instructors}{%
+\chapter{Feedback From Instructors}\label{feedback-from-instructors}}
+
+The instructor of each course is able to give feedback both to the
+Teaching Assistants and to the department regarding performance of the
+Teaching Assistant duties.
+
+\part{\textbf{Getting Help with Teaching}}
+
+\hypertarget{keeping-students-engaged-in-section}{%
+\chapter{Keeping Students Engaged in
+Section}\label{keeping-students-engaged-in-section}}
+
+Fostering active student engagement in Section is vital for effective
+learning. Before the course commences, it is crucial to clarify both the
+Instructor's and your expectations for the sections. Depending on the
+course, some may follow a highly structured approach, providing a
+designated timeline and activities for each section, while others may
+grant more autonomy to the TA. Regardless of the level of flexibility,
+there are various strategies that can be effectively utilized to enhance
+student engagement.
+
+While numerous engagement strategies are available, we will focus on a
+few of our favorites. To begin your first section on a positive note,
+employ fun and interactive icebreaker activities that foster a welcoming
+and collaborative learning environment. You can find some ideas for
+icebreakers here. As you go throughout the quarter, connect the course
+material to real-world applications when suitable, making it more
+interesting and relevant for the students. Encourage small group
+discussions to promote active participation and cultivate collaborative
+learning dynamics. Integrate polls and other interactive activities,
+such as think-pair-share exercises, to sustain students' involvement and
+attentiveness throughout the section.
+
+Above all, remember to be approachable and attentive to your students'
+needs. Regularly assess their understanding of the material by posing
+thoughtful questions, and if possible, engage in one-on-one check-ins.
+Demonstrating genuine care for their learning journey and offering
+support will establish a positive learning atmosphere. Ultimately, these
+practices will foster a more enriching and rewarding educational
+experience for everyone involved. By adopting these engagement
+strategies and maintaining a supportive learning environment, you can
+empower students to thrive in their academic journey.
+
+Please find below additional resources that can help:
+
+\begin{itemize}
+\item
+  https://id.ucsb.edu/teaching/teaching-resources/engaging-students/overview
+\item
+  https://id.ucsb.edu/teaching/teaching-resources/ta-programs/pillars-of-teaching-assistantship
+\item
+  https://id.ucsb.edu/teaching/ta-training/video-consultation
+\end{itemize}
+
+\hypertarget{managing-your-time-and-dealing-with-stress}{%
+\chapter{Managing Your Time and Dealing with
+Stress}\label{managing-your-time-and-dealing-with-stress}}
+
+Effective time management and stress management are crucial skills for
+TAs to navigate their roles successfully. As a TA you will juggle
+multiple responsibilities as a TA -- including leading sections, grading
+assignments, collaborating with instructors, and answering emails -- in
+addition to taking your own classes. Adopting strategies to manage your
+time efficiently is therefore essential.
+
+One key aspect of effective time management is setting clear priorities.
+This is accomplished by identifying the most critical tasks and
+allocating time accordingly. Prioritizing tasks based on deadlines,
+urgency, and importance allows you to stay organized and focused.
+Utilizing tools like to-do lists or time management apps can aid in
+keeping track of tasks and deadlines.
+
+Another effective time management strategy is creating a structured
+schedule. You can designate specific time blocks for various
+responsibilities, such as preparing for sections, grading, and emails.
+This structured approach helps minimize distractions and ensures that
+each task receives adequate attention. Finally, you can enhance time
+management by learning to coordinate with your instructional team when
+possible. Collaborating with other TAs or seeking guidance from
+instructors can help distribute the workload, fostering a more balanced
+and efficient environment.
+
+At times during the quarter, you may experience stress. To effectively
+deal with stress, be sure to practice self-care and maintain a healthy
+work-life balance. Engaging in activities that you enjoy, whether it is
+hobbies, exercise, or spending time with friends, can provide a
+much-needed respite from work-related pressures. Additionally,
+mindfulness practices, such as meditation or deep breathing exercises,
+can help you manage stress in the moment. Taking short breaks during
+intense periods can also prevent burnout and allow you to return to your
+tasks with renewed focus.
+
+Seeking support from colleagues and supervisors is vital when facing
+stress or challenges. Having a support network to share experiences and
+seek advice can provide valuable insights and encouragement. Most
+importantly, it's essential for you to be realistic about your
+capabilities and to know when to ask for help. Acknowledging limitations
+and seeking assistance when needed can prevent you from becoming
+overwhelmed and ensure that you can perform your duties effectively.
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, coltitle=black, breakable, titlerule=0mm, opacitybacktitle=0.6, colback=white, toptitle=1mm, opacityback=0, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, bottomtitle=1mm, rightrule=.15mm, bottomrule=.15mm, left=2mm]
+
+Make sure to manage your time, set clear priorities and boundaries,
+create a structured schedule, and practice self-care and maintain a
+healthy work-life balance. Also make sure to reach out to your
+colleagues and supervisors whenever necessary!
+
+\end{tcolorbox}
+
+\hypertarget{university-resources}{%
+\section{University Resources}\label{university-resources}}
+
+\begin{itemize}
+\item
+  Instructional Development's material for New TAs:
+  https://id.ucsb.edu/teaching/ta-training/new-tas
+\item
+  UCSB Counseling and Psychological Services (CAPS):
+  https://caps.sa.ucsb.edu/
+\item
+  Student health
+\item
+  Current agreement between the UC (University of California) and UAW
+  2865 (the union to which TAs belong):
+  https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/contract.html
+\end{itemize}
+
+\part{\textbf{Managing Issues as a Teaching Assistant}}
+
+\hypertarget{classroom-issues-and-distressed-students}{%
+\chapter{Classroom Issues and Distressed
+Students}\label{classroom-issues-and-distressed-students}}
+
+\hypertarget{classroom-issues}{%
+\section{Classroom Issues}\label{classroom-issues}}
+
+The classroom is meant to be a place where student learning and
+understanding is fostered and promoted. On rare occasions, you may have
+a student who disrupts the learning environment with their behavior or
+comments. If a student exhibits disruptive behavior in the classroom,
+try to remain calm and ask the student to refrain from the disruptive
+behavior or commenting. According to the UCSB Office of Student Conduct,
+after notifying the student of questionable, offending, disruptive
+conduct and giving them the opportunity to respond and/or the
+opportunity to correct the behavior, an instructor may exclude from
+class, either temporarily or permanently, any student whose conduct is
+disruptive toward the instructor or other members of the class. If you
+need to dismiss a student from the classroom, let the Instructor know as
+soon as possible so that appropriate actions (e.g., formal reporting)
+can be taken.
+
+\hypertarget{distressed-students}{%
+\section{Distressed Students}\label{distressed-students}}
+
+UCSB is committed to providing a quality learning environment. As a TA,
+you may be the first to encounter a student who is in distress.
+Encouragement and helping the student to seek assistance with the
+appropriate campus and community resources are key. UCSB has multiple
+professionals poised to respond to distressed students. These staff
+members include social workers, psychologists, psychiatrists, and
+coordinators of student mental health services.
+
+The University provides a number of different resources including
+Distressed Student Response Protocols. \textbf{It is important to review
+this material at the start of the quarter so that you know what is
+available if a difficult situation arises.}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, coltitle=black, breakable, titlerule=0mm, opacitybacktitle=0.6, colback=white, toptitle=1mm, opacityback=0, colbacktitle=quarto-callout-important-color!10!white, colframe=quarto-callout-important-color-frame, bottomtitle=1mm, rightrule=.15mm, bottomrule=.15mm, left=2mm]
+
+Go through the Distressed Student Protocol (linked above) before the
+start of the quarter to ensure you are well-versed in its content and
+its structure.
+
+\end{tcolorbox}
+
+\hypertarget{managing-conflicts-between-tas-and-students}{%
+\chapter{Managing Conflicts between TAs and
+Students}\label{managing-conflicts-between-tas-and-students}}
+
+Teaching Assistants play a key role in the structure of our courses in
+that you have the closest contact with individual students. Students
+will usually look to you first when they need help navigating a course,
+and they may also turn to you when they feel that something isn't right.
+
+\hypertarget{syllabus}{%
+\section{Syllabus}\label{syllabus}}
+
+Many questions or complaints about a course can be addressed by pointing
+the student back to the syllabus for the course. A well-crafted syllabus
+acts as a contract between the student and the instructor which details
+expectations and policies. Having this agreement ensures that everyone
+in the course is treated fairly. The syllabus also ensures consistency
+across Sections in a course. Be sure to follow the policies in the
+syllabus for the course, bringing any questions to the Instructor.
+Please note that policies exist for fairness across all students in the
+course and that you should not make changes without consultation with
+the Instructor.
+
+\hypertarget{grading-on-individual-assignments}{%
+\section{Grading on Individual
+Assignments}\label{grading-on-individual-assignments}}
+
+The majority of issues that students raise will be regarding the way
+that their assignments are graded. TAs will typically be the first
+contact forthat a student who goes to first when they sees something
+amiss in the way their work was graded. Your job is to react
+respectfully and carefully. It may be as straightforward as helping the
+student see how their work was not correct or did not meet expectations.
+
+However, if you recognize that you have made a mistake in your grading
+of some work, then you can honestly acknowledge the mistake and make
+whatever correction to the grading record is necessary. Even when we are
+being very careful, mistakes and misunderstandings do happen. We can try
+to not be defensive and react like we would hope your instructors would
+react with you in a similar situation. If it is a mistake that you think
+was made consistently across many students' work, then you should talk
+with your instructor about how to remediate the error.
+
+If it appears that there was an error made in the grading done by one of
+your colleagues or the instructor, then you should bring this to the
+attention of the instructor. It is important that the grading
+corrections be addressed in a coordinated and consistent fashion.
+
+Additionally, make sure to follow any grading rubric that is provided to
+you by the instructor so that all students' assignments are graded
+consistently. Should you have questions (e.g., partial credit), be sure
+to ask the instructor so that a decision can be made for the course as a
+whole. This is especially important when grading in Gradescope--any
+changes that you make to the rubric for your students propagates to all
+students in the course, including students with other TAs. No changes
+should be made to a grading rubric prior to consultation with the
+instructor.
+
+For exam grading, instructors may have specific policies about the
+timing and decisions about grading questions. Often, students will be
+required to bring up grading issues on exams right away so that there
+isn't any question about alterations made to papers. Talk to your Head
+TA or instructor so that you know what the class policy is. Do not make
+any changes to a student's exam grade without having clear permission
+from the course instructor.
+
+\hypertarget{overall-course-letter-grade}{%
+\section{Overall Course Letter
+Grade}\label{overall-course-letter-grade}}
+
+You may find that students who are not satisfied with their course grade
+come to you at the end of the quarter. They may hope to find a few more
+points somewhere which could push them up to the next letter, or maybe
+they just want to voice their frustration with the way they were
+evaluated.
+
+In all cases, Teaching Assistants are not responsible for the assignment
+of the final letter grade in the course. This is the responsibility of
+the instructor. While you should still be supportive of your students,
+you should also let them know that the instructor is the final arbiter.
+Any issues with grades should be brought directly to the instructor.
+
+\hypertarget{work-as-a-team-with-your-instructor}{%
+\section{Work as a Team with your
+Instructor}\label{work-as-a-team-with-your-instructor}}
+
+Over the course of the quarter, you will work closely with many of the
+students in your sections, and you will undoubtedly be hoping that they
+do well in the course. It is entirely appropriate for you to advocate on
+behalf of your students. However, at the end of the day, the instructor
+is depending on you to be a part of a team. The instructor needs to be
+able to make decisions for the whole class and have those policies
+carried out consistently across sections.
+
+Even if you do not agree with a course policy (see Conflicts with
+Instructors), it is imperative that you do not criticize the course or
+instructor to the students. This is very harmful to the educational
+objectives of the course, and it will not, in the end, serve the course
+or your students. If you find you are not able to defend a course
+policy, then you need to communicate that with the instructor. They will
+be able to address the issues with students.
+
+\hypertarget{referring-students-to-the-instructor}{%
+\section{Referring Students to the
+Instructor}\label{referring-students-to-the-instructor}}
+
+There are many situations that students will bring to you which you will
+need to direct them to communicate directly with the course instructor.
+The instructor will want to make the decisions regarding a complex or
+troublesome issue from a student. It is often helpful if you let the
+student know the best way to bring up the issue with the instructor
+(e.g., email, office hours, Canvas).
+
+If a student is angry or hostile, then directing them to the instructor
+can de-escalate the situation. Acknowledge the student's concerns and
+redirect them to the authority of the instructor. If you are feeling
+unsafe, removing yourself from that situation is your first priority.
+You have no obligation to confront the student. You can call 911 on
+campus to reach campus police.
+
+\hypertarget{managing-conflicts-between-tas-and-instructors}{%
+\chapter{Managing Conflicts between TAs and
+Instructors}\label{managing-conflicts-between-tas-and-instructors}}
+
+In your role as a TA, you will be working with the instructor and other
+TAs towards the shared goal of educating the students in the course in a
+supportive learning environment. Being a TA might be the first time you
+have interacted with a faculty member as part of an instructional team.
+Occasionally, you might find that navigating the relationship between a
+TA and their Instructor can be a bit delicate. On the one hand,
+instructors are your colleagues -- you will be taking their classes as
+students, and you may even be conducting research with some of them on a
+one-on-one basis. On the other hand, the Instructor ultimately is in
+charge of the course as a whole and has the final word. Occasionally,
+this can help you out--if a student doesn't agree with a policy, you can
+``pass the buck'' to the instructor!
+
+The number one piece of advice we can give you is to maintain
+communication -- we encourage you to maintain an active dialogue with
+your Instructor (be that through the course Discussion Board {[}Nectir,
+Discord, Slack, etc.{]} or through regular TA-Instructor check-ins)
+about your workload, as well as any unexpected issues that may arise.
+
+Another guiding tenet of the TA-Instructor relationship is maintaining a
+sense of professionalism and cohesion among the course staff. You should
+not publicly challenge decisions made by Instructors or your fellow TAs
+in front of your students -- doing so degrades students' trust in the
+course staff as a whole and possibly in the Instructor, which often
+leads to an overall sense of disarray in the course. It is important to
+provide the students with a ``united front'' as an instructional team
+and handle as many of these disagreements in private with the Instructor
+and instructional team.
+
+Finally, we would also like to affirm that the department is here to
+support you. If repeated efforts to resolve conflicts with your
+Instructor have been unsuccessful, please feel free to reach out to the
+Graduate Program Advisor, the Graduate Studies Chair, the TA Training
+Coordinators, or the Lead TA to discuss further.
+
+\hypertarget{office-of-the-ombuds}{%
+\chapter{Office of the Ombuds}\label{office-of-the-ombuds}}
+
+If you encounter a situation with a student that cannot be resolved, you
+should first look to the course instructor for guidance. There are many
+resource people in the department such as the
+\protect\hyperlink{AcadLead}{TA Training Coordinators}
+
+consult the instructor or the TA Training Coordinators for guidance.
+
+It may happen that the Instructor or the TA Training Coordinators will
+suggest reaching out to the university
+\href{ombuds.ucsb.edu/students/services}{Office of the Ombuds}. This
+office provides consultation and mediation services for faculty and
+students.
+
+\part{\textbf{Department and University Policies}}
+
+\hypertarget{absence-from-section}{%
+\chapter{Absence from Section}\label{absence-from-section}}
+
+As outlined above, one of the primary duties of a TA is to lead one or
+more sections of a course. It is expected that all TAs will be present
+for \textbf{all} Sections they are assigned throughout the quarter,
+unless explicitly instructed otherwise by the Instructor.
+
+Inform the Instructor of the course as soon as you know that you have a
+planned absence (i.e., if you know in advance that you will be unable to
+host sections on a particular set of day(s)) during the quarter. In such
+a situation, you should start by reaching out to the other TAs in the
+course for which you are a TA, to see if any of them are able to cover
+for you. If that proves unsuccessful, you should reach out to the
+Instructor to discuss. Do \textbf{NOT} simply call a friend to
+substitute for you or cancel section without receiving prior approval
+from the Instructor.
+
+You should also \textbf{not} simply make one of your Sections remote
+(i.e., over Zoom) without the Instructor's prior approval (unless your
+course has a PSTAT\textbf{W} designation; e.g., PSTATW 120A, PSTATW
+160A, etc., as PSTATW-courses are designed for majority-remote
+instruction). The university has set policies in place limiting the
+amount of remote instruction that may legally be conducted, and this
+includes limiting the number of sections that can be conducted remotely.
+
+Please note that if you fail to lead any of your assigned sections, or
+unexpectedly cancel/make a section remote without prior Instructor
+approval, your TA appointment may be terminated after review by the
+department. It is the responsibility of all TAs to ensure students are
+receiving proper attention and instruction.
+
+\hypertarget{preserving-student-confidentiality}{%
+\chapter{Preserving Student
+Confidentiality}\label{preserving-student-confidentiality}}
+
+As a TA, you are privy to information about students' grades in the
+course. This information is protected by the Family Educational Rights
+and Privacy Act (FERPA), a federal law designed to, among other things,
+protect the privacy of education records. Under FERPA, you may not
+disclose personally identifiable information about students nor permit
+anyone else (e.g., parents, other TAs) to have access to student records
+without written consent from the student.
+
+In addition to information about student grades, you may also have
+information about mental health, medical status, whether or not a
+student is documented, whether or not a student works with DSP, etc.
+This information is also confidential and should not be shared with or
+made available to anyone other than the Instructor for the course and
+yourself.
+
+Here are some ways that you can preserve the confidentiality of your
+students:
+
+\begin{itemize}
+\item
+  Ensure that physical documents containing sensitive student
+  information (e.g., grades, Perm \#s) are kept secured and not left in
+  public areas (e.g., mailroom, printer, hallway).
+\item
+  Be sure to password-protect your computer so that others cannot access
+  sensitive student information
+\item
+  Be sure to communicate with students using their UCSB email address
+  only
+\item
+  Only share information about students with the Instructor for the
+  course
+\end{itemize}
+
+\hypertarget{prevention-of-sexual-and-gender-based-harrassment}{%
+\chapter{Prevention of Sexual and Gender-Based
+Harrassment}\label{prevention-of-sexual-and-gender-based-harrassment}}
+
+The University of California is committed to maintaining a community
+dedicated to the advancement, application and transmission of knowledge
+and creative endeavors through academic excellence, where all people who
+participate in University programs and activities can work and learn
+together in an atmosphere free of harassment, exploitation, or
+intimidation.
+
+Sexual violence, sexual harassment, gender-based harassment, and
+retaliation interfere with those goals. Any reports of such conduct will
+be responded to promptly and effectively. This includes action to stop,
+prevent, correct, and when necessary, discipline, behavior that violates
+this Policy.
+
+You will learn more about this policy through the required training
+modules you will complete each academic year. The training provided has
+been customized for graduate students and includes information about
+your role as a Responsible Employee when you are a TA. In your first
+academic year, you will complete Campus Clarity's ``Think About It:
+Graduate Students''. Graduate students who have completed this training
+are assigned the ``Think About It: Continuing Students'' course during
+each subsequent year.
+
+Should you have any questions about how to handle sexual or gender-based
+harassment, feel free to contact the TA Training Coordinators.
+
+\hypertarget{supporting-academic-honesty}{%
+\chapter{Supporting Academic
+Honesty}\label{supporting-academic-honesty}}
+
+Students at UCSB have a Student Conduct Code that exists to support the
+highest standards of social and academic behavior and ensure an
+environment conducive to student learning. It is expected that students
+attending UCSB understand and subscribe to the ideal of academic
+integrity, and are willing to bear individual responsibility for their
+work. Any submission that fulfills an academic requirement must
+represent a student's original work. Any act of academic dishonesty will
+subject a person to University disciplinary action.
+
+Academic dishonesty can include but is not limited to cheating,
+plagiarism, furnishing false information, unauthorized collaboration,
+and misuse of course materials. For specific examples of these
+categories, visit https://studentconduct.sa.ucsb.edu/academic-integrity.
+
+If you suspect a student of violating the UCSB Student Conduct Code in
+some way, let the Instructor of the course know as soon as possible so
+that appropriate actions can be taken.
+
+\part{\textbf{FAQ (Frequently Asked Questions)}}
+
+\hypertarget{electronic-resources}{%
+\chapter{Electronic Resources}\label{electronic-resources}}
+
+\hypertarget{canvas}{%
+\section{Canvas}\label{canvas}}
+
+Currently, UCSB utilizes \textbf{Canvas} (canvas.ucsb.edu) as the
+primary learning management system on which most course sites are built.
+LSIT (Letters and Sciences IT) offers several resources for students and
+instructors who are new to the Canvas learning system at
+https://help.lsit.ucsb.edu/hc/en-us/categories/5360081368475-Canvas;
+additionally, you can submit a ``help ticket'' for one-on-one (virtual)
+help using the following link:
+https://help.lsit.ucsb.edu/hc/en-us/requests/new?ticket\_form\_id=1260809796629
+
+\hypertarget{gradescope}{%
+\section{Gradescope}\label{gradescope}}
+
+Many instructors also utilize Gradescope to aid in the uploading,
+management, and grading of student assessments. You can log in to
+Gradescope by navigating to http://gradescope.com/ and logging in with
+your UCSB credentials. Please note that your \texttt{@umail.ucsb.edu}
+address and your \texttt{@ucsb.edu} address will have separate
+Gradescope accounts unless you physically merge them; we encourage you
+to merge these accounts as soon as possible to avoid any future
+confusion when logging in to specific Gradescope course sites. You can
+find information on how to merge your Gradescope accounts at
+https://help.gradescope.com/article/ipjyg27lg5-student-merge-accounts.
+
+\hypertarget{teaching-supplies}{%
+\chapter{Teaching Supplies}\label{teaching-supplies}}
+
+\hypertarget{textbooks}{%
+\section{Textbooks}\label{textbooks}}
+
+As a TA, you will not be expected to purchase copies of textbooks
+required for or utilized in courses you are TAing. Rather, the
+department provides rental copies of textbooks currently utilized in
+most of the major PSTAT courses, which are to be returned back to the
+department in good condition at the end of the quarter. You can contact
+the \protect\hyperlink{sec-StaffandFacultyContact}{Student Affairs
+Manager} for further details on the pickup and return of these
+textbooks.
+
+\hypertarget{office-supplies}{%
+\section{Office Supplies}\label{office-supplies}}
+
+You will not be expected to purchase office supplies that directly
+relate to your teaching duties; e.g., chalk, whiteboard markers, etc.
+Rather, the department provides supplies like these to graduate students
+in the so-called ``Supply Drawer'', located in the PSTAT Main Office (SH
+5607). Whiteboard markers need to be checked out from the Undergraduate
+Advisor. Please note that the office is always locked outside of
+business hours and also on days when the Staff are remote, so please
+plan accordingly.
+
+\part{\textbf{Glossary}}
+
+\hypertarget{glossary-1}{%
+\chapter{Glossary}\label{glossary-1}}
+
+\hypertarget{common-abbreviations}{%
+\section{Common Abbreviations}\label{common-abbreviations}}
+
+\hypertarget{peopleparties-in-the-department}{%
+\subsection{People/Parties in the
+Department}\label{peopleparties-in-the-department}}
+
+\begin{itemize}
+\item
+  \textbf{DGS}: Director of Graduate Studies
+\item
+  \textbf{GPA}: Graduate Program Advisor
+\item
+  \textbf{SAM}: Student Affairs Manager
+\end{itemize}
+
+\hypertarget{campus-entities-and-terms}{%
+\subsection{Campus Entities and Terms}\label{campus-entities-and-terms}}
+
+\begin{itemize}
+\item
+  \textbf{ASE}: Academic Student Employee
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The official designation of any graduate students employed by the
+    University (e.g.~TAs)
+  \end{itemize}
+\item
+  \textbf{CAPS}: \href{https://caps.sa.ucsb.edu/}{Counseling \&
+  Psychological Services}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    They provided professional mental health service to the UCSB student
+    body. All registered students are eligible for services at CAPS.
+    They may be a resource for assisting one of your students in
+    distress, and they also may be able to help you deal with the
+    stresses of graduate school.
+  \end{itemize}
+\item
+  \textbf{CLAS}: \href{https://clas.sa.ucsb.edu/}{Campus Learning
+  Assistance Services}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    They provide tutoring for many of the lower division classes on
+    campus. For courses like 5A, they have regularly scheduled tutoring
+    sessions to provide additional help for undergraduate students.
+  \end{itemize}
+\item
+  \textbf{PSTAT}: Statistics and Applied Probability
+\item
+  \textbf{UAW:} United Auto Workers (see ``Union'' below)
+
+  \begin{itemize}
+  \item
+    \textbf{UAW 2865:} The union to which all TAs, tutors, readers, and
+    associate instructors at UCSB belong
+  \item
+    The Contract Between UCSB and UAW Regarding ASEs
+  \end{itemize}
+\item
+  \textbf{UCSB}: University of California, Santa Barbara
+\end{itemize}
+
+\hypertarget{common-terms}{%
+\section{Common Terms}\label{common-terms}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Union:} an organized group of individuals, seeking to utilize
+  collective bargaining power to achieve shared interests and rights in
+  the workplace.
+\end{itemize}
+
+
+
+\end{document}

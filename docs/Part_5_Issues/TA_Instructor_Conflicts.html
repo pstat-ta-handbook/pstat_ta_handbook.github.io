@@ -487,14 +487,14 @@ ul.task-list li input[type="checkbox"] {
 flowchart TD
     linkStyle default stroke: black;
     
-    A[Square Node] --&gt;|Decision| B(Round Node)
-    B --&gt; C{Diamond Node}
-    C --&gt;|Dec1| D[Result 1]
-    C --&gt;|Dec2| E[Result 2]
-    C --&gt;|Dec3| F[Result 3]
-
-    F --&gt; |Dec4| G[Result 3.1]
-    F --&gt; |Dec4| H[Result 3.1]
+    AA[Student] --&gt;|Concerns about the Course|A(Teaching Assistant)
+    A --&gt;|Course Content and Policy Issues|B(Course Instructor)
+    B --&gt; C(TA Training Coordinator)
+    B --&gt; D(Lead TA)
+    A --&gt;|Teaching Questions|D
+    C &amp; D --&gt; E(DGS) 
+    E --&gt; F(Department Chair)
+    AA &amp; A &amp; D --&gt; G(Ombuds Office)
 </pre>
 </div>
 </div>

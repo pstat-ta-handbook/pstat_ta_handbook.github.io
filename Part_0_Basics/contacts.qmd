@@ -1,6 +1,6 @@
 # Staff and Faculty Leadership {#sec-StaffandFacultyContact}
 
-\
+## Staff {- #Staff}
 
 - **Student Affairs Manager (SAM)** and **Graduate Program Advisor (GPA)**: Myranda Flores [she/her] ([studentaffairs@pstat.ucsb.edu](mailto:studentaffairs@pstat.ucsb.edu))
     - Oversees hiring and payroll for academic employees in the department.  
@@ -14,13 +14,7 @@
 - **Academic Coordinator:** Jessie Priestley [she/her] ([academic-coordinator@pstat.ucsb.edu](mailto:academic-coordinator@pstat.ucsb.edu))
     - Hires and onboards Undergraduate Learning Assistants (ULAs) 
 
-\
-
-- **Department Chair:** Tomoyuki Ichiba [he/him] ([ichiba@pstat.ucsb.edu](mailto: ichiba@pstat.ucsb.edu))
-    - Oversees planning and budgeting for the department
-    - Hires instructors including Graduate Student Teaching Associates 
-
-
+## Academic Leadership {- #AcadLead}
 - **Director of Graduate Studies (DGS):** Drew Carter [he/him] ([carter@pstat.ucsb.edu](mailto:carter@pstat.ucsb.edu))
     - Assigns TAs to courses
     - Makes hiring decisions regarding Teaching Assistants and Readers

@@ -54,6 +54,7 @@ book:
         - Part_5_Issues/Issues.qmd
         - Part_5_Issues/TA_Student_Conflicts.qmd
         - Part_5_Issues/TA_Instructor_Conflicts.qmd
+        - Part_5_Issues/Ombuds.qmd
     - part: "**Department and University Policies**"
       chapters:
         - Part_6_Policies/Absence.qmd

@@ -8,7 +8,7 @@ Another guiding tenet of the TA-Instructor relationship is maintaining a sense o
 
 Finally, we would also like to affirm that the department is here to support you. If repeated efforts to resolve conflicts with your Instructor have been unsuccessful, please feel free to reach out to the Graduate Program Advisor, the Graduate Studies Chair, the TA Training Coordinators, or the Lead TA to discuss further.
 
-```{mermaid}
+```{mermaid concerns, fig.cap="Caption"}
 %%{
   init: {
     'theme': 'base',
@@ -26,13 +26,13 @@ Finally, we would also like to affirm that the department is here to support you
 flowchart TD
     linkStyle default stroke: black;
     
-    A[Square Node] -->|Decision| B(Round Node)
-    B --> C{Diamond Node}
-    C -->|Dec1| D[Result 1]
-    C -->|Dec2| E[Result 2]
-    C -->|Dec3| F[Result 3]
-
-    F --> |Dec4| G[Result 3.1]
-    F --> |Dec4| H[Result 3.1]
+    AA[Student] -->|Concerns about the Course|A(Teaching Assistant)
+    A -->|Course Content and Policy Issues|B(Course Instructor)
+    B --> C(TA Training Coordinator)
+    B --> D(Lead TA)
+    A -->|Teaching Questions|D
+    C & D --> E(DGS) 
+    E --> F(Department Chair)
+    AA & A & D --> G(Ombuds Office)
 ```
   

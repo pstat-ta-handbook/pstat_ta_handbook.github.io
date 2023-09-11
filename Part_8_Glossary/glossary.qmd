@@ -4,28 +4,40 @@
 
 ### People/Parties in the Department
 
-- **DGS**: Director of Graduate Studies
+-   **DGS**: Director of Graduate Studies
 
-- **GPA**: Graduate Program Advisor
+-   **GPA**: Graduate Program Advisor
 
-- **SAM**: Student Affairs Manager
+-   **SAM**: Student Affairs Manager
 
 ### Campus Entities and Terms
 
-- **ASE:** Academic Student Employee
+-   **ASE**: Academic Student Employee
 
-    - The official designation of any graduate students employed by the University (e.g. TAs)
+    -   The official designation of any graduate students employed by the University (e.g. TAs)
 
-- **PSTAT**: Statistics and Applied Probability
+-   **CAPS**: [Counseling & Psychological Services](https://caps.sa.ucsb.edu/)
 
-- **UAW:** United Auto Workers (see "Union" below)
-    - <a href="https://ucsbuaw.wordpress.com/" target="_blank">**UAW 2865:**</a> The union to which all TAs, tutors, readers, and associate instructors at UCSB belong
+    - They provided professional mental health service to  the UCSB student body. All registered students are eligible for services at CAPS. They may be a resource for assisting one of your students in distress, and they also may be able to help you deal with the stresses of graduate school.
+
+-   **CLAS**: [Campus Learning Assistance Services](https://clas.sa.ucsb.edu/)
+
+    -   They provide tutoring for many of the lower division classes on campus. For courses like 5A, they have regularly scheduled tutoring sessions to provide additional help for undergraduate students.
     
-    - <a href="https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/contract.html" target="_blank">The Contract Between UCSB and UAW Regarding ASEs</a>
+-   **ID**: [Instructional Development](https://id.ucsb.edu/)
 
-- **UCSB**: University of California, Santa Barbara
+-  **CITRAL**: [Center for Innovative Teaching, Research, and Learning](https://www.citral.ucsb.edu/)
 
+-   **PSTAT**: Statistics and Applied Probability
+
+-   **UAW:** United Auto Workers (see "Union" below)
+
+    -   <a href="https://ucsbuaw.wordpress.com/" target="_blank">**UAW 2865:**</a> The union to which all TAs, tutors, readers, and associate instructors at UCSB belong
+
+    -   <a href="https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/contract.html" target="_blank">The Contract Between UCSB and UAW Regarding ASEs</a>
+
+-   **UCSB**: University of California, Santa Barbara
 
 ## Common Terms
 
-- **Union:** an organized group of individuals, seeking to utilize collective bargaining power to achieve shared interests and rights in the workplace.
+-   **Union:** an organized group of individuals, seeking to utilize collective bargaining power to achieve shared interests and rights in the workplace.

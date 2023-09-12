@@ -6,9 +6,9 @@ The number one piece of advice we can give you is to maintain communication – 
 
 Another guiding tenet of the TA-Instructor relationship is maintaining a sense of professionalism and cohesion among the course staff. You should not publicly challenge decisions made by Instructors or your fellow TAs in front of your students – doing so degrades students’ trust in the course staff as a whole and possibly in the Instructor, which often leads to an overall sense of disarray in the course. It is important to provide the students with a "united front" as an instructional team and handle as many of these disagreements in private with the Instructor and instructional team.
 
-Finally, we would also like to affirm that the department is here to support you. If repeated efforts to resolve conflicts with your Instructor have been unsuccessful, please feel free to reach out to the Graduate Program Advisor, the Graduate Studies Chair, the TA Training Coordinators, or the Lead TA to discuss further.
+Finally, we would also like to affirm that the department is here to support you. If repeated efforts to resolve conflicts with your Instructor have been unsuccessful, please feel free to reach out to the Graduate Program Advisor, the Director of Graduate Studies, the TA Training Coordinators, or the Lead TA to discuss further.
 
-```{mermaid concerns, fig.cap="Caption"}
+```{mermaid concerns, fig.caption="Caption"}
 %%{
   init: {
     'theme': 'base',
@@ -27,7 +27,7 @@ Finally, we would also like to affirm that the department is here to support you
 flowchart TD
     linkStyle default stroke: black;
     
-    title[Figure 1: My Title Here]
+    title[Figure 1: There are many resources to turn to when you face a conflict.]
     title --- AA
     style title fill:#FFF,stroke:#FFF
     linkStyle 0 stroke:#FFF,stroke-width:0;
@@ -35,10 +35,11 @@ flowchart TD
     AA[Student] -->|Concerns about the Course|A(Teaching Assistant)
     A -->|Course Content and Policy Issues|B(Course Instructor)
     B --> C(TA Training Coordinator)
+    A --> C
     B --> D(Lead TA)
     A -->|Teaching Questions|D
-    C & D --> E(DGS) 
+    B & C & D  --> E(DGS) 
     E --> F(Department Chair)
-    AA & A & D --> G(Ombuds Office)
+    AA & A & D --> G(Campus Resources)
 ```
   

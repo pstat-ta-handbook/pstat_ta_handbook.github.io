@@ -25,11 +25,8 @@ book:
       chapters:
         - Part_1_TA_Expectations/ta_instructor_comm.qmd
         - Part_1_TA_Expectations/workload.qmd
-        - Part_1_TA_Expectations/sections.qmd
-        - Part_1_TA_Expectations/office_hours.qmd
-        - Part_1_TA_Expectations/grading.qmd
+        - Part_1_TA_Expectations/duties.qmd
         - Part_1_TA_Expectations/course_materials.qmd
-        - Part_1_TA_Expectations/proctoring.qmd
         - Part_1_TA_Expectations/head_tas.qmd
     - part: "**Expectations for Graders**"
       chapters:
@@ -57,10 +54,7 @@ book:
         - Part_5_Issues/Ombuds.qmd
     - part: "**Department and University Policies**"
       chapters:
-        - Part_6_Policies/Absence.qmd
-        - Part_6_Policies/Confidentiality.qmd
-        - Part_6_Policies/Preventing_Harrassment.qmd
-        - Part_6_Policies/Academic_Honesty.qmd
+        - Part_6_Policies/policies.qmd
     - part: "**FAQ (Frequently Asked Questions)**"
       chapters:
         - Part_7_FAQ/electronic_resources.qmd

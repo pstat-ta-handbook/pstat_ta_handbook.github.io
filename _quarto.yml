@@ -21,6 +21,10 @@ book:
       chapters:
         - Part_0_Basics/mission.qmd
         - Part_0_Basics/contacts.qmd
+    - part: "**Expectations for Graders and ULAs**"
+      chapters:
+        - Part_1.5_Graders/graders.qmd
+        - Part_1.75_ULAs/ulas.qmd
     - part: "**Expectations for Teaching Assistants**"
       chapters:
         - Part_1_TA_Expectations/ta_instructor_comm.qmd
@@ -28,16 +32,9 @@ book:
         - Part_1_TA_Expectations/duties.qmd
         - Part_1_TA_Expectations/course_materials.qmd
         - Part_1_TA_Expectations/head_tas.qmd
-    - part: "**Expectations for Graders**"
-      chapters:
-        - Part_1.5_Graders/graders.qmd
-    - part: "**Expectations for ULAs**"
-      chapters:
-        - Part_1.75_ULAs/ulas.qmd
     - part: "**Hiring Procedures**"
       chapters:
-        - Part_2_Hiring_Procedures/TAApplication.qmd
-        - Part_2_Hiring_Procedures/SectionAssign.qmd
+        - Part_2_Hiring_Procedures/hiring.qmd
     - part: "**Evaluation of Teaching Assistant Performance**"
       chapters:
         - Part_3_Evaluation/Student.qmd
@@ -57,8 +54,7 @@ book:
         - Part_6_Policies/policies.qmd
     - part: "**FAQ (Frequently Asked Questions)**"
       chapters:
-        - Part_7_FAQ/electronic_resources.qmd
-        - Part_7_FAQ/office_supplies.qmd
+        - Part_7_FAQ/resources.qmd
     - part: "**Glossary**"
       chapters:
         - Part_8_Glossary/glossary.qmd

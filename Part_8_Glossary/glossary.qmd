@@ -4,11 +4,17 @@
 
 ### People/Parties in the Department
 
--   **DGS**: Director of Graduate Studies
+-   **DGS**: [Director of Graduate Studies](#AcadLead)
+    - Principal faculty member responsible for overseeing graduate program policies
 
--   **GPA**: Graduate Program Advisor
+-   **GPA**: [Graduate Program Advisor](#Staff)
+    - Staff member tasked with advising graduate students and administering graduate policies
 
--   **SAM**: Student Affairs Manager
+-   **SAM**: [Student Affairs Manager](#Staff)
+    - Supervisor of staff program advisors of both the graduate and undergraduate program
+
+-   **MSO**:  Management Services Officer
+    - Chief Administrator in the department responsible for oversight of all aspects of the program
 
 ### Campus Entities and Terms
 
@@ -24,9 +30,14 @@
 
     -   Provides tutoring for many of the lower division classes on campus. For courses like 5A, they have regularly scheduled tutoring sessions to provide additional help for undergraduate students.
     
+-  **CITRAL**: [Center for Innovative Teaching, Research, and Learning](https://www.citral.ucsb.edu/)
+    
+-  **DSP**: [Disabled Students Program](https://dsp.sa.ucsb.edu/)
+
 -   **ID**: [Instructional Development](https://id.ucsb.edu/)
 
--  **CITRAL**: [Center for Innovative Teaching, Research, and Learning](https://www.citral.ucsb.edu/)
+-   **OSC**: [Office of Student Conduct](https://studentconduct.sa.ucsb.edu/)
+     - Adjudicates violations of the Student Conduct Code. In particular, they collect reports of cheating and academic dishonesty.
 
 -   **PSTAT**: Statistics and Applied Probability
 

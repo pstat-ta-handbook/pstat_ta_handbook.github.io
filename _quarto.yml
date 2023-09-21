@@ -11,7 +11,7 @@ book:
 
   page-footer:
     left: |
-      ©2023
+      ©2023; Department of Statistics and Applied Probability
     right: |
       This book was built with
       <a href="https://quarto.org/" target="_blank">Quarto</a>.

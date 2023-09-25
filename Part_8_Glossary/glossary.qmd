@@ -2,7 +2,7 @@
 
 ## Common Abbreviations
 
-### People/Parties in the Department
+### People/Parties in the Department { #DeptPeople}
 
 -   **DGS**: [Director of Graduate Studies](#AcadLead)
     - Principal faculty member responsible for overseeing graduate program policies

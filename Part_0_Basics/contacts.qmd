@@ -5,11 +5,11 @@
 - **Student Affairs Manager (SAM)** and **Graduate Program Advisor (GPA)**: Myranda Flores [she/her] ([studentaffairs@pstat.ucsb.edu](mailto:studentaffairs@pstat.ucsb.edu))
     - Oversees hiring and payroll for academic employees in the department.  
     - Coordinates the assignment of Teaching Assistants to sections
-    - Has copies of textbooks that TAs can borrow for use in their course during the quarter
+    - Has copies of textbooks that TAs can borrow for use in their courses during the quarter
 
 - **Undergraduate Advisors:** Ellery Wilkie [she/her] and Yan Laschev [he/him] ([undergradadvisor@pstat.ucsb.edu](mailto:undergradadvisor@pstat.ucsb.edu))
     - Coordinate classroom scheduling for departmental courses
-    - Assist with exam accommodations through the Disabled Students Program (DSP)
+    - Assist with exam accommodations through the Disabled Students Program ([DSP](https://dsp.sa.ucsb.edu/))
 
 - **Academic Coordinator:** Jessie Priestley [she/her] ([academic-coordinator@pstat.ucsb.edu](mailto:academic-coordinator@pstat.ucsb.edu))
     - Hires and onboards Undergraduate Learning Assistants (ULAs) 
@@ -27,9 +27,9 @@
     
     
     
-- **Teaching Assistant Training Coordinators:** Jack Miller [they/them] ([jbmiller@ucsb.edu](mailto:jbmiller@ucsb.edu)), Julie Swenson (she/her)([swenson@pstat.ucsb.edu](mailto:swenson@pstat.ucsb.edu)), Julie Swenson 
+- **Teaching Assistant Training Coordinators:** Jack Miller [they/them] ([jbmiller@ucsb.edu](mailto:jbmiller@ucsb.edu)), Julie Swenson (she/her) ([swenson@pstat.ucsb.edu](mailto:swenson@pstat.ucsb.edu)) 
     - Support TAs in matters related to classroom instruction
     - Available for TA consultations 
-    - Support the DGS with matters related to TAs
+    - Support the [DGS](#DeptPeople) with matters related to TAs
 
 

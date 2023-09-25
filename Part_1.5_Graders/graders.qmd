@@ -1,6 +1,6 @@
 # Expectations for Graders
 
-Graders (or “Readers” which is their official job title) are hired to grade student work. Typically, graders are given weekly homework papers to grade. Most often the course instructor will provide solutions to the assigned questions as well as a rubric describing how points are to be assigned in the grading. It is your responsibility to make sure that you understand the intentions of your instructor both as to what answers are considered acceptable and also how points should be distributed for partially correct answers. (See [Grading](#Grading))
+Graders (or “Readers” which is their official job title) are hired to grade student work. Typically, graders are given weekly homework papers to grade. Most often the course instructor will provide solutions to the assigned questions as well as a rubric describing how points are to be assigned in the grading. It is your responsibility to make sure that you understand the intentions of your instructor both as to what answers are considered acceptable and also how points should be distributed for partially correct answers. (See [Grading](#grading))
 
 ## Time Cards
 

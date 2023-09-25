@@ -16,7 +16,7 @@
 -   **SAM**: [Student Affairs Manager](#Staff)
     - Supervisor of staff program advisors of both the graduate and undergraduate program
 
-### Campus Entities and Terms
+### Campus Entities and Terms {#Terms}
 
 -   **ASE**: Academic Student Employee
 
@@ -33,6 +33,10 @@
     -   Provides tutoring for many of the lower division classes on campus. For courses like 5A, they have regularly scheduled tutoring sessions to provide additional help for undergraduate students.
     
 -  **DSP**: [Disabled Students Program](https://dsp.sa.ucsb.edu/)
+
+- **FTE**: Full Time Equivalent
+
+    -   Departmental budgeting is based on how many full-time employees would be needed to staff courses (eg. in Fall we have 11.75 FTE for TAs). However, ASE do not work full time. Therefore, the positions are designated 50% FTE or 25% FTE depending on whether they are 20 hours or 10 hours per week respectively.
 
 -  **ID**: [Instructional Development](https://id.ucsb.edu/)
 

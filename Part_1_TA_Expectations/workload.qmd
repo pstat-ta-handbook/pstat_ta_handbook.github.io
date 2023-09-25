@@ -2,7 +2,7 @@
 
 Teaching Assistants are generally hired at either 50% or 25% time. A 50% TA is responsible for two discussion sections, and a 25% TA is responsible for one discussion section. The expectation is that the workload is about 10 hours per week for each discussion section that you are responsible for. However, not every week is the same, and some weeks will be busier than others.
 
-There are Union Rules (see [Glossary](../Part_8_Glossary/glossary.qmd)) which stipulate that TAs hired at 50% time may not be assigned work exceeding 220 hours per quarter (110 for 25% positions). Furthermore, no one can be asked to work for more than 40 hours in any given week or more than 8 hours in a given day. Additional rules and specific details are provided in Section 32 of the amended UAW 2865 contract. 
+There are Union Rules (see [UAW Contract](https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/contract.html)) which stipulate that TAs hired at 50% time may not be assigned work exceeding 220 hours per quarter (110 for 25% positions). Furthermore, no one can be asked to work for more than 40 hours in any given week or more than 8 hours in a given day. Additional rules and specific details are provided in [Article 32](https://ucnet.universityofcalifornia.edu/labor/bargaining-units/bx/docs/bx_article_32-workload_2018-2022.pdf) of the amended UAW 2865 contract. 
 
 What this typically means is that you will not be asked to work in excess of 20 hours per week on a regular basis for your TA duties (10 hours if you are a 25% TA). These 20 (10) hours include time spent:
 
@@ -15,7 +15,7 @@ What this typically means is that you will not be asked to work in excess of 20 
 - Taking attendance
 - Reviewing course material and/or assessments (if applicable)
 
-If you feel that the workload being asked of you is in danger of approaching or exceeding the above-stated limits, you are encouraged to reach out to the Instructor to discuss adjusting your workload. Should discussions with the Instructor prove to be unsuccessful, you are encouraged to reach out to either the Teaching Assistant Training Coordinators or the Lead TA.
+If you feel that the workload being asked of you is in danger of approaching or exceeding the above-stated limits, you are encouraged to reach out to the Instructor to discuss adjusting your workload. Should discussions with the Instructor prove to be unsuccessful, you are encouraged to reach out to either the [Teaching Assistant Training Coordinators](#AcadLead) or the [Lead TA](#AcadLead).
 
 Please note: you are expected to prepare for each of the sections and Office Hours (OH) you lead. Above all, this entails working through any provided material (e.g., worksheets, homework, etc.) [**fully**]{.underline} before coming into your section/OH, and ensuring that you are able to answer questions about the material without having to reference the solutions. That is, you should not prepare by just skimming over the solutions provided to you–make sure you can solve all problems on your own, and that you are able to answer student questions adequately. It is unfair to your students if you come to Sections or Office Hours underprepared, especially if you are simply "reading from the solutions" and not providing any additional insight.
 
